@@ -1,0 +1,12 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$archyVersion": "2.33.1",
+    "description": "Architect Yaml auto-generated definitions for common referencable objects for the organization 'CIBERCUSW' (id: 'dc24bb46-f552-4c3e-99cb-d28d0e773758') - generated at 2025-01-23T15:30:51.500Z.",
+    "additionalProperties": false,
+    "properties": {
+        "common": {
+            "description": "A common objects file schema that defines what the format of a common object file should look like.",
+            "$ref": "./definitions/DefArchyCommon.schema.json#/definitions/ArchyCommonObjects"
+        }
+    }
+}

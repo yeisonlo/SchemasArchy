@@ -1,0 +1,68 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$archyVersion": "2.33.1",
+    "description": "Architect Yaml Main Flow auto-generated schema file for the organization 'CIBERCUSW' (id: 'dc24bb46-f552-4c3e-99cb-d28d0e773758') - generated at 2025-01-23T15:30:50.354Z.",
+    "additionalProperties": false,
+    "properties": {
+        "botFlow": {
+            "description": "A flow with the flow type of 'bot'",
+            "$ref": "./definitions/DefArchyBot.schema.json#/definitions/ArchyFlowBot"
+        },
+        "commonModule": {
+            "description": "A flow with the flow type of 'commonmodule'",
+            "$ref": "./definitions/DefArchyCommonModule.schema.json#/definitions/ArchyFlowCommonModule"
+        },
+        "digitalBot": {
+            "description": "A flow with the flow type of 'digitalbot'",
+            "$ref": "./definitions/DefArchyDigitalBot.schema.json#/definitions/ArchyFlowDigitalBot"
+        },
+        "inboundCall": {
+            "description": "A flow with the flow type of 'inboundcall'",
+            "$ref": "./definitions/DefArchyInboundCall.schema.json#/definitions/ArchyFlowInboundCall"
+        },
+        "inboundChat": {
+            "description": "A flow with the flow type of 'inboundchat'",
+            "$ref": "./definitions/DefArchyInboundChat.schema.json#/definitions/ArchyFlowInboundChat"
+        },
+        "inboundEmail": {
+            "description": "A flow with the flow type of 'inboundemail'",
+            "$ref": "./definitions/DefArchyInboundEmail.schema.json#/definitions/ArchyFlowInboundEmail"
+        },
+        "inboundShortMessage": {
+            "description": "A flow with the flow type of 'inboundshortmessage'",
+            "$ref": "./definitions/DefArchyInboundShortMessage.schema.json#/definitions/ArchyFlowInboundShortMessage"
+        },
+        "inqueueCall": {
+            "description": "A flow with the flow type of 'inqueuecall'",
+            "$ref": "./definitions/DefArchyInQueueCall.schema.json#/definitions/ArchyFlowInQueueCall"
+        },
+        "inqueueEmail": {
+            "description": "A flow with the flow type of 'inqueueemail'",
+            "$ref": "./definitions/DefArchyInQueueEmail.schema.json#/definitions/ArchyFlowInQueueEmail"
+        },
+        "inqueueShortMessage": {
+            "description": "A flow with the flow type of 'inqueueshortmessage'",
+            "$ref": "./definitions/DefArchyInQueueShortMessage.schema.json#/definitions/ArchyFlowInQueueShortMessage"
+        },
+        "outboundCall": {
+            "description": "A flow with the flow type of 'outboundcall'",
+            "$ref": "./definitions/DefArchyOutboundCall.schema.json#/definitions/ArchyFlowOutboundCall"
+        },
+        "secureCall": {
+            "description": "A flow with the flow type of 'securecall'",
+            "$ref": "./definitions/DefArchySecureCall.schema.json#/definitions/ArchyFlowSecureCall"
+        },
+        "surveyInvite": {
+            "description": "A flow with the flow type of 'surveyinvite'",
+            "$ref": "./definitions/DefArchySurveyInvite.schema.json#/definitions/ArchyFlowSurveyInvite"
+        },
+        "voicemail": {
+            "description": "A flow with the flow type of 'voicemail'",
+            "$ref": "./definitions/DefArchyVoicemail.schema.json#/definitions/ArchyFlowVoicemail"
+        },
+        "workflow": {
+            "description": "A flow with the flow type of 'workflow'",
+            "$ref": "./definitions/DefArchyWorkflow.schema.json#/definitions/ArchyFlowWorkflow"
+        }
+    }
+}

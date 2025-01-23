@@ -1,0 +1,6 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$archyVersion": "2.33.1",
+    "description": "Architect Yaml auto-generated definitions for Natural Language Understanding domains for the organization 'CIBERCUSW' (id: 'dc24bb46-f552-4c3e-99cb-d28d0e773758') - generated at 2025-01-23T15:21:50.032Z.",
+    "$ref": "./definitions/DefNluDomainVersion.schema.json"
+}
