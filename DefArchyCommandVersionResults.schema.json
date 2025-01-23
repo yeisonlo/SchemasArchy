@@ -1,0 +1,135 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$archyVersion": "2.33.1",
+    "title": "version Command",
+    "description": "Architect Yaml auto-generated definitions for the flow's 'version' command result - generated at 2025-01-23T15:21:07.149Z.",
+    "definitions": {
+        "versionResults": {
+            "additionalProperties": false,
+            "type": "object",
+            "properties": {
+                "command": {
+                    "description": "The name of the command that was run.",
+                    "type": "string"
+                },
+                "endDateTime": {
+                    "description": "The end date time of the command.",
+                    "format": "date-time",
+                    "type": "string"
+                },
+                "exitCode": {
+                    "description": "The exit code that is returned when a command is run.",
+                    "type": "integer"
+                },
+                "output": {
+                    "description": "Result output specific to a given command.",
+                    "type": "object",
+                    "properties": {
+                        "currentVersion": {
+                            "description": "The current version of Archy.",
+                            "type": "string"
+                        },
+                        "debugFilePath": {
+                            "description": "The path to the debug log file.",
+                            "type": "string"
+                        },
+                        "option": {
+                            "description": "The option that was passed with the version command.",
+                            "type": "string"
+                        },
+                        "previousVersion": {
+                            "description": "The previous version of Archy.",
+                            "type": "string"
+                        },
+                        "removedVersion": {
+                            "description": "The locally installed version that was removed using the version command with the '--remove' option.",
+                            "type": "string"
+                        },
+                        "traces": {
+                            "description": "The traces from the command line output from running a command.",
+                            "type": "object",
+                            "properties": {
+                                "dateTime": {
+                                    "description": "The date time that the trace was logged.",
+                                    "format": "date-time",
+                                    "type": "string"
+                                },
+                                "text": {
+                                    "description": "The error or warning trace text output to the console",
+                                    "type": "string"
+                                },
+                                "type": {
+                                    "description": "The message level type.",
+                                    "type": "string",
+                                    "enum": [
+                                        "error",
+                                        "warning"
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                },
+                "settings": {
+                    "description": "The settings that were used for the Archy command. The settings that will show in the results file are dependent on the command that was ran.",
+                    "type": "object",
+                    "properties": {
+                        "debug": {
+                            "description": "The 'debug' setting for the command.",
+                            "type": "object",
+                            "properties": {
+                                "source": {
+                                    "description": "The source for where the setting came from. Valid sources are 'command line parameter', 'config file', 'default value', or 'options file'.",
+                                    "type": "string",
+                                    "enum": [
+                                        "command line parameter",
+                                        "config file",
+                                        "default value",
+                                        "options file"
+                                    ]
+                                },
+                                "value": {
+                                    "description": "The value for the setting",
+                                    "type": "boolean"
+                                }
+                            }
+                        },
+                        "homeDir": {
+                            "description": "The 'homeDir' setting for the command.",
+                            "type": "object",
+                            "properties": {
+                                "source": {
+                                    "description": "The source for where the setting came from. Valid sources are 'command line parameter', 'config file', 'default value', or 'options file'.",
+                                    "type": "string",
+                                    "enum": [
+                                        "command line parameter",
+                                        "config file",
+                                        "default value",
+                                        "options file"
+                                    ]
+                                },
+                                "value": {
+                                    "description": "The value for the setting",
+                                    "type": "string"
+                                }
+                            }
+                        }
+                    }
+                },
+                "startDateTime": {
+                    "description": "The start date time of the command.",
+                    "format": "date-time",
+                    "type": "string"
+                },
+                "status": {
+                    "description": "The status of the command that was run (either success or failure).",
+                    "type": "string"
+                },
+                "version": {
+                    "description": "The current version of Archy.",
+                    "type": "string"
+                }
+            }
+        }
+    }
+}

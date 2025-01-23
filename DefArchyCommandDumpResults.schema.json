@@ -1,0 +1,131 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$archyVersion": "2.33.1",
+    "title": "dump Command",
+    "description": "Architect Yaml auto-generated definitions for the flow's 'dump' command result - generated at 2025-01-23T15:21:07.144Z.",
+    "definitions": {
+        "dumpResults": {
+            "additionalProperties": false,
+            "type": "object",
+            "properties": {
+                "command": {
+                    "description": "The name of the command that was run.",
+                    "type": "string"
+                },
+                "endDateTime": {
+                    "description": "The end date time of the command.",
+                    "format": "date-time",
+                    "type": "string"
+                },
+                "exitCode": {
+                    "description": "The exit code that is returned when a command is run.",
+                    "type": "integer"
+                },
+                "output": {
+                    "description": "Result output specific to a given command.",
+                    "type": "object",
+                    "properties": {
+                        "authToken": {
+                            "description": "The authToken for Archy's configuration",
+                            "type": "string"
+                        },
+                        "clientId": {
+                            "description": "The client id for Archy's configuration.",
+                            "type": "string"
+                        },
+                        "clientSecret": {
+                            "description": "The client secret for Archy's configuration.",
+                            "type": "string"
+                        },
+                        "debug": {
+                            "description": "The debug setting for Archy's configuration.",
+                            "type": "boolean"
+                        },
+                        "debugFilePath": {
+                            "description": "The path to the debug log file.",
+                            "type": "string"
+                        },
+                        "hasDefaultConfigurationSettings": {
+                            "description": "The property that tells if any default configuration settings in Archy's configuration file is set. If false, make sure to run either the archy setup or archy configure command.",
+                            "type": "boolean"
+                        },
+                        "homeDir": {
+                            "description": "The fully qualified path to Archy's home directory.",
+                            "type": "string"
+                        },
+                        "location": {
+                            "description": "The environment Archy is set to run in.",
+                            "type": "string"
+                        },
+                        "traces": {
+                            "description": "The traces from the command line output from running a command.",
+                            "type": "object",
+                            "properties": {
+                                "dateTime": {
+                                    "description": "The date time that the trace was logged.",
+                                    "format": "date-time",
+                                    "type": "string"
+                                },
+                                "text": {
+                                    "description": "The error or warning trace text output to the console",
+                                    "type": "string"
+                                },
+                                "type": {
+                                    "description": "The message level type.",
+                                    "type": "string",
+                                    "enum": [
+                                        "error",
+                                        "warning"
+                                    ]
+                                }
+                            }
+                        }
+                    },
+                    "enum": [
+                        true,
+                        false
+                    ]
+                },
+                "settings": {
+                    "description": "The settings that were used for the Archy command. The settings that will show in the results file are dependent on the command that was ran.",
+                    "type": "object",
+                    "properties": {
+                        "homeDir": {
+                            "description": "The 'homeDir' setting for the command.",
+                            "type": "object",
+                            "properties": {
+                                "source": {
+                                    "description": "The source for where the setting came from. Valid sources are 'command line parameter', 'config file', 'default value', or 'options file'.",
+                                    "type": "string",
+                                    "enum": [
+                                        "command line parameter",
+                                        "config file",
+                                        "default value",
+                                        "options file"
+                                    ]
+                                },
+                                "value": {
+                                    "description": "The value for the setting",
+                                    "type": "string"
+                                }
+                            }
+                        }
+                    }
+                },
+                "startDateTime": {
+                    "description": "The start date time of the command.",
+                    "format": "date-time",
+                    "type": "string"
+                },
+                "status": {
+                    "description": "The status of the command that was run (either success or failure).",
+                    "type": "string"
+                },
+                "version": {
+                    "description": "The current version of Archy.",
+                    "type": "string"
+                }
+            }
+        }
+    }
+}

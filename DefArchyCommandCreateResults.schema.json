@@ -1,0 +1,257 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$archyVersion": "2.33.1",
+    "title": "create Command",
+    "description": "Architect Yaml auto-generated definitions for the flow's 'create' command result - generated at 2025-01-23T15:21:07.143Z.",
+    "definitions": {
+        "createResults": {
+            "additionalProperties": false,
+            "type": "object",
+            "properties": {
+                "command": {
+                    "description": "The name of the command that was run.",
+                    "type": "string"
+                },
+                "endDateTime": {
+                    "description": "The end date time of the command.",
+                    "format": "date-time",
+                    "type": "string"
+                },
+                "exitCode": {
+                    "description": "The exit code that is returned when a command is run.",
+                    "type": "integer"
+                },
+                "output": {
+                    "description": "Result output specific to a given command.",
+                    "type": "object",
+                    "properties": {
+                        "debugFilePath": {
+                            "description": "The path to the debug log file.",
+                            "type": "string"
+                        },
+                        "flowInfo": {
+                            "description": "Additional information pertaining to the flow.",
+                            "type": "object",
+                            "properties": {
+                                "checkedInVersion": {
+                                    "description": "Properties related to the checked-in version of the flow.",
+                                    "type": "object",
+                                    "properties": {
+                                        "id": {
+                                            "description": "The checked-in version of the flow.",
+                                            "type": "string"
+                                        }
+                                    }
+                                },
+                                "id": {
+                                    "description": "The id of the flow.",
+                                    "type": "string"
+                                },
+                                "publishedVersion": {
+                                    "description": "Properties related to the published version of the flow.",
+                                    "type": "object",
+                                    "properties": {
+                                        "id": {
+                                            "description": "The published version of the flow.",
+                                            "type": "string"
+                                        }
+                                    }
+                                },
+                                "url": {
+                                    "description": "The URL of the flow that was created.",
+                                    "type": "string"
+                                }
+                            }
+                        },
+                        "flowName": {
+                            "description": "The name of the flow.",
+                            "type": "string"
+                        },
+                        "traces": {
+                            "description": "The traces from the command line output from running a command.",
+                            "type": "object",
+                            "properties": {
+                                "dateTime": {
+                                    "description": "The date time that the trace was logged.",
+                                    "format": "date-time",
+                                    "type": "string"
+                                },
+                                "text": {
+                                    "description": "The error or warning trace text output to the console",
+                                    "type": "string"
+                                },
+                                "type": {
+                                    "description": "The message level type.",
+                                    "type": "string",
+                                    "enum": [
+                                        "error",
+                                        "warning"
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                },
+                "settings": {
+                    "description": "The settings that were used for the Archy command. The settings that will show in the results file are dependent on the command that was ran.",
+                    "type": "object",
+                    "properties": {
+                        "debug": {
+                            "description": "The 'debug' setting for the command.",
+                            "type": "object",
+                            "properties": {
+                                "source": {
+                                    "description": "The source for where the setting came from. Valid sources are 'command line parameter', 'config file', 'default value', or 'options file'.",
+                                    "type": "string",
+                                    "enum": [
+                                        "command line parameter",
+                                        "config file",
+                                        "default value",
+                                        "options file"
+                                    ]
+                                },
+                                "value": {
+                                    "description": "The value for the setting",
+                                    "type": "boolean"
+                                }
+                            }
+                        },
+                        "filePath": {
+                            "description": "The setting path to the Archy flow YAML file.",
+                            "type": "object",
+                            "properties": {
+                                "source": {
+                                    "description": "The source for where the setting came from. Valid sources are 'command line parameter', 'config file', 'default value', or 'options file'.",
+                                    "type": "string",
+                                    "enum": [
+                                        "command line parameter",
+                                        "config file",
+                                        "default value",
+                                        "options file"
+                                    ]
+                                },
+                                "value": {
+                                    "description": "The value for the setting",
+                                    "type": "string"
+                                }
+                            }
+                        },
+                        "forceUnlock": {
+                            "description": "The setting to tell Archy to unlock the flow if it is locked to another entity.",
+                            "type": "object",
+                            "properties": {
+                                "source": {
+                                    "description": "The source for where the setting came from. Valid sources are 'command line parameter', 'config file', 'default value', or 'options file'.",
+                                    "type": "string",
+                                    "enum": [
+                                        "command line parameter",
+                                        "config file",
+                                        "default value",
+                                        "options file"
+                                    ]
+                                },
+                                "value": {
+                                    "description": "The value for the setting",
+                                    "type": "boolean"
+                                }
+                            }
+                        },
+                        "homeDir": {
+                            "description": "The 'homeDir' setting for the command.",
+                            "type": "object",
+                            "properties": {
+                                "source": {
+                                    "description": "The source for where the setting came from. Valid sources are 'command line parameter', 'config file', 'default value', or 'options file'.",
+                                    "type": "string",
+                                    "enum": [
+                                        "command line parameter",
+                                        "config file",
+                                        "default value",
+                                        "options file"
+                                    ]
+                                },
+                                "value": {
+                                    "description": "The value for the setting",
+                                    "type": "string"
+                                }
+                            }
+                        },
+                        "location": {
+                            "description": "The 'location' setting for the command.",
+                            "type": "object",
+                            "properties": {
+                                "source": {
+                                    "description": "The source for where the setting came from. Valid sources are 'command line parameter', 'config file', 'default value', or 'options file'.",
+                                    "type": "string",
+                                    "enum": [
+                                        "command line parameter",
+                                        "config file",
+                                        "default value",
+                                        "options file"
+                                    ]
+                                },
+                                "value": {
+                                    "description": "The value for the setting",
+                                    "type": "string"
+                                }
+                            }
+                        },
+                        "optionsFile": {
+                            "description": "The 'optionsFile' path setting for the command.",
+                            "type": "object",
+                            "properties": {
+                                "source": {
+                                    "description": "The source for where the setting came from. Valid sources are 'command line parameter', 'config file', 'default value', or 'options file'.",
+                                    "type": "string",
+                                    "enum": [
+                                        "command line parameter",
+                                        "config file",
+                                        "default value",
+                                        "options file"
+                                    ]
+                                },
+                                "value": {
+                                    "description": "The value for the setting",
+                                    "type": "string"
+                                }
+                            }
+                        },
+                        "recreate": {
+                            "description": "The 'recreate' setting for the command.",
+                            "type": "object",
+                            "properties": {
+                                "source": {
+                                    "description": "The source for where the setting came from. Valid sources are 'command line parameter', 'config file', 'default value', or 'options file'.",
+                                    "type": "string",
+                                    "enum": [
+                                        "command line parameter",
+                                        "config file",
+                                        "default value",
+                                        "options file"
+                                    ]
+                                },
+                                "value": {
+                                    "description": "The value for the setting",
+                                    "type": "boolean"
+                                }
+                            }
+                        }
+                    }
+                },
+                "startDateTime": {
+                    "description": "The start date time of the command.",
+                    "format": "date-time",
+                    "type": "string"
+                },
+                "status": {
+                    "description": "The status of the command that was run (either success or failure).",
+                    "type": "string"
+                },
+                "version": {
+                    "description": "The current version of Archy.",
+                    "type": "string"
+                }
+            }
+        }
+    }
+}
