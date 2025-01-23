@@ -1,0 +1,912 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$archyVersion": "2.33.1",
+    "$comment": "Be sure to keep one root property nluDomainVersion and then put configuration information below that. :)",
+    "description": "Architect Yaml auto-generated definitions for a Natural Language Understanding domain for the organization 'CIBERCUSW' (id: 'dc24bb46-f552-4c3e-99cb-d28d0e773758') - generated at 2025-01-23T15:21:50.028Z.",
+    "additionalProperties": false,
+    "minProperties": 1,
+    "maxProperties": 1,
+    "definitions": {
+        "ArchyPickerMechanismExamples": {
+            "description": "The Entity Types mechanism picker (AI).",
+            "type": "object",
+            "properties": {
+                "resolvedValue": {
+                    "description": "The resolved entity value.",
+                    "type": "string"
+                },
+                "text": {
+                    "description": "The example input text.",
+                    "type": "string"
+                }
+            }
+        },
+        "ArchyPickerMechanismItems": {
+            "description": "The Entity Types mechanism picker.",
+            "type": "object",
+            "properties": {
+                "additionalLanguages": {
+                    "description": "The additional languages to configure for the intent settings.",
+                    "type": "object",
+                    "properties": {
+                        "ar-ae": {
+                            "description": "The 'ar-ae' to settings for the entity type",
+                            "type": "object",
+                            "properties": {
+                                "synonyms": {
+                                    "description": "The utterances configuration for the language.",
+                                    "type": "array"
+                                }
+                            }
+                        },
+                        "ca-es": {
+                            "description": "The 'ca-es' to settings for the entity type",
+                            "type": "object",
+                            "properties": {
+                                "synonyms": {
+                                    "description": "The utterances configuration for the language.",
+                                    "type": "array"
+                                }
+                            }
+                        },
+                        "da-dk": {
+                            "description": "The 'da-dk' to settings for the entity type",
+                            "type": "object",
+                            "properties": {
+                                "synonyms": {
+                                    "description": "The utterances configuration for the language.",
+                                    "type": "array"
+                                }
+                            }
+                        },
+                        "de-ch": {
+                            "description": "The 'de-ch' to settings for the entity type",
+                            "type": "object",
+                            "properties": {
+                                "synonyms": {
+                                    "description": "The utterances configuration for the language.",
+                                    "type": "array"
+                                }
+                            }
+                        },
+                        "de-de": {
+                            "description": "The 'de-de' to settings for the entity type",
+                            "type": "object",
+                            "properties": {
+                                "synonyms": {
+                                    "description": "The utterances configuration for the language.",
+                                    "type": "array"
+                                }
+                            }
+                        },
+                        "en-au": {
+                            "description": "The 'en-au' to settings for the entity type",
+                            "type": "object",
+                            "properties": {
+                                "synonyms": {
+                                    "description": "The utterances configuration for the language.",
+                                    "type": "array"
+                                }
+                            }
+                        },
+                        "en-gb": {
+                            "description": "The 'en-gb' to settings for the entity type",
+                            "type": "object",
+                            "properties": {
+                                "synonyms": {
+                                    "description": "The utterances configuration for the language.",
+                                    "type": "array"
+                                }
+                            }
+                        },
+                        "en-ie": {
+                            "description": "The 'en-ie' to settings for the entity type",
+                            "type": "object",
+                            "properties": {
+                                "synonyms": {
+                                    "description": "The utterances configuration for the language.",
+                                    "type": "array"
+                                }
+                            }
+                        },
+                        "en-nz": {
+                            "description": "The 'en-nz' to settings for the entity type",
+                            "type": "object",
+                            "properties": {
+                                "synonyms": {
+                                    "description": "The utterances configuration for the language.",
+                                    "type": "array"
+                                }
+                            }
+                        },
+                        "en-us": {
+                            "description": "The 'en-us' to settings for the entity type",
+                            "type": "object",
+                            "properties": {
+                                "synonyms": {
+                                    "description": "The utterances configuration for the language.",
+                                    "type": "array"
+                                }
+                            }
+                        },
+                        "en-za": {
+                            "description": "The 'en-za' to settings for the entity type",
+                            "type": "object",
+                            "properties": {
+                                "synonyms": {
+                                    "description": "The utterances configuration for the language.",
+                                    "type": "array"
+                                }
+                            }
+                        },
+                        "es-es": {
+                            "description": "The 'es-es' to settings for the entity type",
+                            "type": "object",
+                            "properties": {
+                                "synonyms": {
+                                    "description": "The utterances configuration for the language.",
+                                    "type": "array"
+                                }
+                            }
+                        },
+                        "es-mx": {
+                            "description": "The 'es-mx' to settings for the entity type",
+                            "type": "object",
+                            "properties": {
+                                "synonyms": {
+                                    "description": "The utterances configuration for the language.",
+                                    "type": "array"
+                                }
+                            }
+                        },
+                        "es-us": {
+                            "description": "The 'es-us' to settings for the entity type",
+                            "type": "object",
+                            "properties": {
+                                "synonyms": {
+                                    "description": "The utterances configuration for the language.",
+                                    "type": "array"
+                                }
+                            }
+                        },
+                        "eu-es": {
+                            "description": "The 'eu-es' to settings for the entity type",
+                            "type": "object",
+                            "properties": {
+                                "synonyms": {
+                                    "description": "The utterances configuration for the language.",
+                                    "type": "array"
+                                }
+                            }
+                        },
+                        "fi-fi": {
+                            "description": "The 'fi-fi' to settings for the entity type",
+                            "type": "object",
+                            "properties": {
+                                "synonyms": {
+                                    "description": "The utterances configuration for the language.",
+                                    "type": "array"
+                                }
+                            }
+                        },
+                        "fr-ca": {
+                            "description": "The 'fr-ca' to settings for the entity type",
+                            "type": "object",
+                            "properties": {
+                                "synonyms": {
+                                    "description": "The utterances configuration for the language.",
+                                    "type": "array"
+                                }
+                            }
+                        },
+                        "fr-fr": {
+                            "description": "The 'fr-fr' to settings for the entity type",
+                            "type": "object",
+                            "properties": {
+                                "synonyms": {
+                                    "description": "The utterances configuration for the language.",
+                                    "type": "array"
+                                }
+                            }
+                        },
+                        "it-it": {
+                            "description": "The 'it-it' to settings for the entity type",
+                            "type": "object",
+                            "properties": {
+                                "synonyms": {
+                                    "description": "The utterances configuration for the language.",
+                                    "type": "array"
+                                }
+                            }
+                        },
+                        "ja-jp": {
+                            "description": "The 'ja-jp' to settings for the entity type",
+                            "type": "object",
+                            "properties": {
+                                "synonyms": {
+                                    "description": "The utterances configuration for the language.",
+                                    "type": "array"
+                                }
+                            }
+                        },
+                        "ko-kr": {
+                            "description": "The 'ko-kr' to settings for the entity type",
+                            "type": "object",
+                            "properties": {
+                                "synonyms": {
+                                    "description": "The utterances configuration for the language.",
+                                    "type": "array"
+                                }
+                            }
+                        },
+                        "nb-no": {
+                            "description": "The 'nb-no' to settings for the entity type",
+                            "type": "object",
+                            "properties": {
+                                "synonyms": {
+                                    "description": "The utterances configuration for the language.",
+                                    "type": "array"
+                                }
+                            }
+                        },
+                        "nl-nl": {
+                            "description": "The 'nl-nl' to settings for the entity type",
+                            "type": "object",
+                            "properties": {
+                                "synonyms": {
+                                    "description": "The utterances configuration for the language.",
+                                    "type": "array"
+                                }
+                            }
+                        },
+                        "pl-pl": {
+                            "description": "The 'pl-pl' to settings for the entity type",
+                            "type": "object",
+                            "properties": {
+                                "synonyms": {
+                                    "description": "The utterances configuration for the language.",
+                                    "type": "array"
+                                }
+                            }
+                        },
+                        "pt-br": {
+                            "description": "The 'pt-br' to settings for the entity type",
+                            "type": "object",
+                            "properties": {
+                                "synonyms": {
+                                    "description": "The utterances configuration for the language.",
+                                    "type": "array"
+                                }
+                            }
+                        },
+                        "pt-pt": {
+                            "description": "The 'pt-pt' to settings for the entity type",
+                            "type": "object",
+                            "properties": {
+                                "synonyms": {
+                                    "description": "The utterances configuration for the language.",
+                                    "type": "array"
+                                }
+                            }
+                        },
+                        "sv-se": {
+                            "description": "The 'sv-se' to settings for the entity type",
+                            "type": "object",
+                            "properties": {
+                                "synonyms": {
+                                    "description": "The utterances configuration for the language.",
+                                    "type": "array"
+                                }
+                            }
+                        },
+                        "tr-tr": {
+                            "description": "The 'tr-tr' to settings for the entity type",
+                            "type": "object",
+                            "properties": {
+                                "synonyms": {
+                                    "description": "The utterances configuration for the language.",
+                                    "type": "array"
+                                }
+                            }
+                        },
+                        "zh-cn": {
+                            "description": "The 'zh-cn' to settings for the entity type",
+                            "type": "object",
+                            "properties": {
+                                "synonyms": {
+                                    "description": "The utterances configuration for the language.",
+                                    "type": "array"
+                                }
+                            }
+                        },
+                        "zh-hk": {
+                            "description": "The 'zh-hk' to settings for the entity type",
+                            "type": "object",
+                            "properties": {
+                                "synonyms": {
+                                    "description": "The utterances configuration for the language.",
+                                    "type": "array"
+                                }
+                            }
+                        },
+                        "zh-tw": {
+                            "description": "The 'zh-tw' to settings for the entity type",
+                            "type": "object",
+                            "properties": {
+                                "synonyms": {
+                                    "description": "The utterances configuration for the language.",
+                                    "type": "array"
+                                }
+                            }
+                        }
+                    }
+                },
+                "synonyms": {
+                    "description": "The synonyms for the entity type value.",
+                    "type": "array"
+                },
+                "value": {
+                    "description": "The entity type value.",
+                    "type": "string"
+                }
+            }
+        },
+        "ArchyPickerNLUEntities": {
+            "description": "The NLU domain entities picker.",
+            "type": "object",
+            "properties": {
+                "name": {
+                    "description": "The name of the entity.",
+                    "type": "string"
+                },
+                "type": {
+                    "description": "The type of the entity.",
+                    "type": "string"
+                }
+            }
+        },
+        "ArchyPickerNLUEntityNameReferences": {
+            "description": "The NLU domain intent entity type binding picker.",
+            "minLength": 1,
+            "type": "string"
+        },
+        "ArchyPickerNLUIntents": {
+            "description": "The NLU domain intents picker.",
+            "type": "object",
+            "properties": {
+                "additionalLanguages": {
+                    "description": "The additional languages to configure for the intent settings.",
+                    "type": "object",
+                    "properties": {
+                        "ar-ae": {
+                            "description": "The 'ar-ae' to settings for the intent",
+                            "type": "object",
+                            "properties": {
+                                "utterances": {
+                                    "description": "The utterances configuration for the language.",
+                                    "type": "array"
+                                }
+                            }
+                        },
+                        "ca-es": {
+                            "description": "The 'ca-es' to settings for the intent",
+                            "type": "object",
+                            "properties": {
+                                "utterances": {
+                                    "description": "The utterances configuration for the language.",
+                                    "type": "array"
+                                }
+                            }
+                        },
+                        "da-dk": {
+                            "description": "The 'da-dk' to settings for the intent",
+                            "type": "object",
+                            "properties": {
+                                "utterances": {
+                                    "description": "The utterances configuration for the language.",
+                                    "type": "array"
+                                }
+                            }
+                        },
+                        "de-ch": {
+                            "description": "The 'de-ch' to settings for the intent",
+                            "type": "object",
+                            "properties": {
+                                "utterances": {
+                                    "description": "The utterances configuration for the language.",
+                                    "type": "array"
+                                }
+                            }
+                        },
+                        "de-de": {
+                            "description": "The 'de-de' to settings for the intent",
+                            "type": "object",
+                            "properties": {
+                                "utterances": {
+                                    "description": "The utterances configuration for the language.",
+                                    "type": "array"
+                                }
+                            }
+                        },
+                        "en-au": {
+                            "description": "The 'en-au' to settings for the intent",
+                            "type": "object",
+                            "properties": {
+                                "utterances": {
+                                    "description": "The utterances configuration for the language.",
+                                    "type": "array"
+                                }
+                            }
+                        },
+                        "en-gb": {
+                            "description": "The 'en-gb' to settings for the intent",
+                            "type": "object",
+                            "properties": {
+                                "utterances": {
+                                    "description": "The utterances configuration for the language.",
+                                    "type": "array"
+                                }
+                            }
+                        },
+                        "en-ie": {
+                            "description": "The 'en-ie' to settings for the intent",
+                            "type": "object",
+                            "properties": {
+                                "utterances": {
+                                    "description": "The utterances configuration for the language.",
+                                    "type": "array"
+                                }
+                            }
+                        },
+                        "en-nz": {
+                            "description": "The 'en-nz' to settings for the intent",
+                            "type": "object",
+                            "properties": {
+                                "utterances": {
+                                    "description": "The utterances configuration for the language.",
+                                    "type": "array"
+                                }
+                            }
+                        },
+                        "en-us": {
+                            "description": "The 'en-us' to settings for the intent",
+                            "type": "object",
+                            "properties": {
+                                "utterances": {
+                                    "description": "The utterances configuration for the language.",
+                                    "type": "array"
+                                }
+                            }
+                        },
+                        "en-za": {
+                            "description": "The 'en-za' to settings for the intent",
+                            "type": "object",
+                            "properties": {
+                                "utterances": {
+                                    "description": "The utterances configuration for the language.",
+                                    "type": "array"
+                                }
+                            }
+                        },
+                        "es-es": {
+                            "description": "The 'es-es' to settings for the intent",
+                            "type": "object",
+                            "properties": {
+                                "utterances": {
+                                    "description": "The utterances configuration for the language.",
+                                    "type": "array"
+                                }
+                            }
+                        },
+                        "es-mx": {
+                            "description": "The 'es-mx' to settings for the intent",
+                            "type": "object",
+                            "properties": {
+                                "utterances": {
+                                    "description": "The utterances configuration for the language.",
+                                    "type": "array"
+                                }
+                            }
+                        },
+                        "es-us": {
+                            "description": "The 'es-us' to settings for the intent",
+                            "type": "object",
+                            "properties": {
+                                "utterances": {
+                                    "description": "The utterances configuration for the language.",
+                                    "type": "array"
+                                }
+                            }
+                        },
+                        "eu-es": {
+                            "description": "The 'eu-es' to settings for the intent",
+                            "type": "object",
+                            "properties": {
+                                "utterances": {
+                                    "description": "The utterances configuration for the language.",
+                                    "type": "array"
+                                }
+                            }
+                        },
+                        "fi-fi": {
+                            "description": "The 'fi-fi' to settings for the intent",
+                            "type": "object",
+                            "properties": {
+                                "utterances": {
+                                    "description": "The utterances configuration for the language.",
+                                    "type": "array"
+                                }
+                            }
+                        },
+                        "fr-ca": {
+                            "description": "The 'fr-ca' to settings for the intent",
+                            "type": "object",
+                            "properties": {
+                                "utterances": {
+                                    "description": "The utterances configuration for the language.",
+                                    "type": "array"
+                                }
+                            }
+                        },
+                        "fr-fr": {
+                            "description": "The 'fr-fr' to settings for the intent",
+                            "type": "object",
+                            "properties": {
+                                "utterances": {
+                                    "description": "The utterances configuration for the language.",
+                                    "type": "array"
+                                }
+                            }
+                        },
+                        "it-it": {
+                            "description": "The 'it-it' to settings for the intent",
+                            "type": "object",
+                            "properties": {
+                                "utterances": {
+                                    "description": "The utterances configuration for the language.",
+                                    "type": "array"
+                                }
+                            }
+                        },
+                        "ja-jp": {
+                            "description": "The 'ja-jp' to settings for the intent",
+                            "type": "object",
+                            "properties": {
+                                "utterances": {
+                                    "description": "The utterances configuration for the language.",
+                                    "type": "array"
+                                }
+                            }
+                        },
+                        "ko-kr": {
+                            "description": "The 'ko-kr' to settings for the intent",
+                            "type": "object",
+                            "properties": {
+                                "utterances": {
+                                    "description": "The utterances configuration for the language.",
+                                    "type": "array"
+                                }
+                            }
+                        },
+                        "nb-no": {
+                            "description": "The 'nb-no' to settings for the intent",
+                            "type": "object",
+                            "properties": {
+                                "utterances": {
+                                    "description": "The utterances configuration for the language.",
+                                    "type": "array"
+                                }
+                            }
+                        },
+                        "nl-nl": {
+                            "description": "The 'nl-nl' to settings for the intent",
+                            "type": "object",
+                            "properties": {
+                                "utterances": {
+                                    "description": "The utterances configuration for the language.",
+                                    "type": "array"
+                                }
+                            }
+                        },
+                        "pl-pl": {
+                            "description": "The 'pl-pl' to settings for the intent",
+                            "type": "object",
+                            "properties": {
+                                "utterances": {
+                                    "description": "The utterances configuration for the language.",
+                                    "type": "array"
+                                }
+                            }
+                        },
+                        "pt-br": {
+                            "description": "The 'pt-br' to settings for the intent",
+                            "type": "object",
+                            "properties": {
+                                "utterances": {
+                                    "description": "The utterances configuration for the language.",
+                                    "type": "array"
+                                }
+                            }
+                        },
+                        "pt-pt": {
+                            "description": "The 'pt-pt' to settings for the intent",
+                            "type": "object",
+                            "properties": {
+                                "utterances": {
+                                    "description": "The utterances configuration for the language.",
+                                    "type": "array"
+                                }
+                            }
+                        },
+                        "sv-se": {
+                            "description": "The 'sv-se' to settings for the intent",
+                            "type": "object",
+                            "properties": {
+                                "utterances": {
+                                    "description": "The utterances configuration for the language.",
+                                    "type": "array"
+                                }
+                            }
+                        },
+                        "tr-tr": {
+                            "description": "The 'tr-tr' to settings for the intent",
+                            "type": "object",
+                            "properties": {
+                                "utterances": {
+                                    "description": "The utterances configuration for the language.",
+                                    "type": "array"
+                                }
+                            }
+                        },
+                        "zh-cn": {
+                            "description": "The 'zh-cn' to settings for the intent",
+                            "type": "object",
+                            "properties": {
+                                "utterances": {
+                                    "description": "The utterances configuration for the language.",
+                                    "type": "array"
+                                }
+                            }
+                        },
+                        "zh-hk": {
+                            "description": "The 'zh-hk' to settings for the intent",
+                            "type": "object",
+                            "properties": {
+                                "utterances": {
+                                    "description": "The utterances configuration for the language.",
+                                    "type": "array"
+                                }
+                            }
+                        },
+                        "zh-tw": {
+                            "description": "The 'zh-tw' to settings for the intent",
+                            "type": "object",
+                            "properties": {
+                                "utterances": {
+                                    "description": "The utterances configuration for the language.",
+                                    "type": "array"
+                                }
+                            }
+                        }
+                    }
+                },
+                "description": {
+                    "description": "The description of the intent on a virtual agent enabled flow.",
+                    "type": "string"
+                },
+                "entityNameReferences": {
+                    "description": "The entityNameReferences to create for the intent.",
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/ArchyPickerNLUEntityNameReferences"
+                    },
+                    "minItems": 1
+                },
+                "name": {
+                    "description": "The name of the intent.",
+                    "type": "string"
+                },
+                "utterances": {
+                    "description": "The utterances to be used on the intent.",
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/ArchyPickerNLUUtterances"
+                    },
+                    "minItems": 2
+                }
+            }
+        },
+        "ArchyPickerNLUSegments": {
+            "description": "The NLU domain utterance segments picker.",
+            "type": "object",
+            "properties": {
+                "entity": {
+                    "description": "The entity type configuration for the segment.",
+                    "type": "object",
+                    "properties": {
+                        "name": {
+                            "description": "The name of the entityType that this segment is using.",
+                            "type": "string"
+                        }
+                    }
+                },
+                "text": {
+                    "description": "The text to use for the segment.",
+                    "type": "string"
+                }
+            }
+        },
+        "ArchyPickerNLUUtterances": {
+            "description": "The NLU domain utterances picker.",
+            "type": "object",
+            "properties": {
+                "segments": {
+                    "description": "The entity type bindings to configure on the intent.",
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/ArchyPickerNLUSegments"
+                    }
+                },
+                "source": {
+                    "description": "The source of creation for the utterance on a virtual agent enabled flow.",
+                    "type": "string"
+                }
+            }
+        }
+    },
+    "type": "object",
+    "properties": {
+        "nluDomainVersion": {
+            "description": "The natural language understanding configuration.",
+            "additionalProperties": false,
+            "type": "object",
+            "properties": {
+                "description": {
+                    "description": "The description for the natural language understanding.",
+                    "type": "string"
+                },
+                "entities": {
+                    "description": "The entities to create for the NLU domain version.",
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/ArchyPickerNLUEntities"
+                    }
+                },
+                "entityTypes": {
+                    "description": "The entity types to configure on the NLU domain version.",
+                    "type": "array",
+                    "items": {
+                        "type": "object",
+                        "properties": {
+                            "description": {
+                                "description": "The description for the entity type.",
+                                "type": "string"
+                            },
+                            "mechanism": {
+                                "description": "The configuration of the entity type.",
+                                "type": "object",
+                                "properties": {
+                                    "examples": {
+                                        "description": "The entityTypeBindings to create for the intent.",
+                                        "type": "array",
+                                        "items": {
+                                            "$ref": "#/definitions/ArchyPickerMechanismItems"
+                                        }
+                                    },
+                                    "items": {
+                                        "description": "The entityTypeBindings to create for the intent.",
+                                        "type": "array",
+                                        "items": {
+                                            "$ref": "#/definitions/ArchyPickerMechanismItems"
+                                        }
+                                    },
+                                    "maxLength": {
+                                        "description": "The max length of the entity (AI).",
+                                        "type": "integer"
+                                    },
+                                    "restricted": {
+                                        "description": "Whether the slot is restricted or not.",
+                                        "type": "boolean"
+                                    },
+                                    "subType": {
+                                        "description": "The subtype of detection mechanism (AI).",
+                                        "type": "string",
+                                        "enum": [
+                                            "Alphanumeric",
+                                            "FreeForm",
+                                            "NumberSequence"
+                                        ]
+                                    },
+                                    "type": {
+                                        "description": "The slot type to use for the slot.",
+                                        "type": "string",
+                                        "enum": [
+                                            "DynamicList",
+                                            "List",
+                                            "Regex",
+                                            "AI"
+                                        ]
+                                    }
+                                }
+                            },
+                            "name": {
+                                "description": "The name of the entity type.",
+                                "type": "string"
+                            }
+                        }
+                    }
+                },
+                "intents": {
+                    "description": "The intents configured for the natural language understanding.",
+                    "type": "array",
+                    "items": {
+                        "type": "object",
+                        "properties": {
+                            "description": {
+                                "description": "The description of the intent on a virtual agent enabled flow.",
+                                "type": "string"
+                            },
+                            "entityNameReferences": {
+                                "description": "The entityNameReferences to create for the intent.",
+                                "type": "array",
+                                "items": {
+                                    "$ref": "#/definitions/ArchyPickerNLUEntityNameReferences"
+                                },
+                                "minItems": 1
+                            },
+                            "name": {
+                                "description": "The name of the intent.",
+                                "type": "string"
+                            },
+                            "utterances": {
+                                "description": "The utterances to be used on the intent.",
+                                "type": "array",
+                                "items": {
+                                    "$ref": "#/definitions/ArchyPickerNLUUtterances"
+                                },
+                                "minItems": 2
+                            }
+                        }
+                    }
+                },
+                "language": {
+                    "description": "The language for the natural language understanding.",
+                    "type": "string",
+                    "enum": [
+                        "fi-fi",
+                        "en-ie",
+                        "nb-no",
+                        "en-us",
+                        "en-za",
+                        "ar-ae",
+                        "zh-cn",
+                        "nl-nl",
+                        "en-au",
+                        "es-us",
+                        "de-ch",
+                        "ja-jp",
+                        "ca-es",
+                        "de-de",
+                        "zh-hk",
+                        "zh-tw",
+                        "ko-kr",
+                        "pt-br",
+                        "es-es",
+                        "es-mx",
+                        "eu-es",
+                        "fr-ca",
+                        "it-it",
+                        "en-nz",
+                        "pl-pl",
+                        "pt-pt",
+                        "sv-se",
+                        "da-dk",
+                        "tr-tr",
+                        "fr-fr",
+                        "en-gb"
+                    ]
+                }
+            }
+        }
+    }
+}
