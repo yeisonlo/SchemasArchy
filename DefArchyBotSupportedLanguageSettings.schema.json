@@ -1,0 +1,1758 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$archyVersion": "2.33.1",
+    "description": "Architect Yaml auto-generated definitions for the flow's supported language settings for the organization 'CIBERCUSW' (id: 'dc24bb46-f552-4c3e-99cb-d28d0e773758') - generated at 2025-01-23T15:21:07.000Z.",
+    "definitions": {
+        "ArchyBotSupportedLanguageSettings": {
+            "additionalProperties": false,
+            "type": "object",
+            "properties": {
+                "ar-ae": {
+                    "description": "The 'ar-ae' language tag to set as a flow's supported language.",
+                    "additionalProperties": false,
+                    "maxProperties": 2,
+                    "type": "object",
+                    "properties": {
+                        "defaultLanguageSkill": {
+                            "description": "The default language skill to use for the language.",
+                            "additionalProperties": false,
+                            "$ref": "../DefArchyValues.schema.json#/definitions/ArchyPickerValueLanguageSkillLitNov"
+                        },
+                        "knowledgeBase": {
+                            "description": "The knowledge base configuration for the language.",
+                            "type": "object",
+                            "properties": {
+                                "id": {
+                                    "description": "The id of the knowledge base to use for this language.",
+                                    "type": "string"
+                                },
+                                "name": {
+                                    "description": "The name of the knowledge base to use for this language.",
+                                    "type": "string"
+                                }
+                            }
+                        },
+                        "none": {
+                            "description": "A property indicating no YAML configuration specified to set on the object.",
+                            "type": "boolean",
+                            "enum": [
+                                true
+                            ]
+                        },
+                        "speechToText": {
+                            "description": "The speech to text schema object.",
+                            "type": "object",
+                            "properties": {
+                                "engine": {
+                                    "description": "The engine schema object.",
+                                    "additionalProperties": false,
+                                    "maxProperties": 1,
+                                    "type": "object",
+                                    "properties": {
+                                        "id": {
+                                            "description": "The id of the speech to text engine to use for this language",
+                                            "type": "string"
+                                        },
+                                        "name": {
+                                            "description": "The name of the speech to text engine to use for this language",
+                                            "type": "string"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "ca-es": {
+                    "description": "The 'ca-es' language tag to set as a flow's supported language.",
+                    "additionalProperties": false,
+                    "maxProperties": 2,
+                    "type": "object",
+                    "properties": {
+                        "defaultLanguageSkill": {
+                            "description": "The default language skill to use for the language.",
+                            "additionalProperties": false,
+                            "$ref": "../DefArchyValues.schema.json#/definitions/ArchyPickerValueLanguageSkillLitNov"
+                        },
+                        "knowledgeBase": {
+                            "description": "The knowledge base configuration for the language.",
+                            "type": "object",
+                            "properties": {
+                                "id": {
+                                    "description": "The id of the knowledge base to use for this language.",
+                                    "type": "string"
+                                },
+                                "name": {
+                                    "description": "The name of the knowledge base to use for this language.",
+                                    "type": "string"
+                                }
+                            }
+                        },
+                        "none": {
+                            "description": "A property indicating no YAML configuration specified to set on the object.",
+                            "type": "boolean",
+                            "enum": [
+                                true
+                            ]
+                        },
+                        "speechToText": {
+                            "description": "The speech to text schema object.",
+                            "type": "object",
+                            "properties": {
+                                "engine": {
+                                    "description": "The engine schema object.",
+                                    "additionalProperties": false,
+                                    "maxProperties": 1,
+                                    "type": "object",
+                                    "properties": {
+                                        "id": {
+                                            "description": "The id of the speech to text engine to use for this language",
+                                            "type": "string"
+                                        },
+                                        "name": {
+                                            "description": "The name of the speech to text engine to use for this language",
+                                            "type": "string"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "da-dk": {
+                    "description": "The 'da-dk' language tag to set as a flow's supported language.",
+                    "additionalProperties": false,
+                    "maxProperties": 2,
+                    "type": "object",
+                    "properties": {
+                        "defaultLanguageSkill": {
+                            "description": "The default language skill to use for the language.",
+                            "additionalProperties": false,
+                            "$ref": "../DefArchyValues.schema.json#/definitions/ArchyPickerValueLanguageSkillLitNov"
+                        },
+                        "knowledgeBase": {
+                            "description": "The knowledge base configuration for the language.",
+                            "type": "object",
+                            "properties": {
+                                "id": {
+                                    "description": "The id of the knowledge base to use for this language.",
+                                    "type": "string"
+                                },
+                                "name": {
+                                    "description": "The name of the knowledge base to use for this language.",
+                                    "type": "string"
+                                }
+                            }
+                        },
+                        "none": {
+                            "description": "A property indicating no YAML configuration specified to set on the object.",
+                            "type": "boolean",
+                            "enum": [
+                                true
+                            ]
+                        },
+                        "speechToText": {
+                            "description": "The speech to text schema object.",
+                            "type": "object",
+                            "properties": {
+                                "engine": {
+                                    "description": "The engine schema object.",
+                                    "additionalProperties": false,
+                                    "maxProperties": 1,
+                                    "type": "object",
+                                    "properties": {
+                                        "id": {
+                                            "description": "The id of the speech to text engine to use for this language",
+                                            "type": "string"
+                                        },
+                                        "name": {
+                                            "description": "The name of the speech to text engine to use for this language",
+                                            "type": "string"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "de-ch": {
+                    "description": "The 'de-ch' language tag to set as a flow's supported language.",
+                    "additionalProperties": false,
+                    "maxProperties": 2,
+                    "type": "object",
+                    "properties": {
+                        "defaultLanguageSkill": {
+                            "description": "The default language skill to use for the language.",
+                            "additionalProperties": false,
+                            "$ref": "../DefArchyValues.schema.json#/definitions/ArchyPickerValueLanguageSkillLitNov"
+                        },
+                        "knowledgeBase": {
+                            "description": "The knowledge base configuration for the language.",
+                            "type": "object",
+                            "properties": {
+                                "id": {
+                                    "description": "The id of the knowledge base to use for this language.",
+                                    "type": "string"
+                                },
+                                "name": {
+                                    "description": "The name of the knowledge base to use for this language.",
+                                    "type": "string"
+                                }
+                            }
+                        },
+                        "none": {
+                            "description": "A property indicating no YAML configuration specified to set on the object.",
+                            "type": "boolean",
+                            "enum": [
+                                true
+                            ]
+                        },
+                        "speechToText": {
+                            "description": "The speech to text schema object.",
+                            "type": "object",
+                            "properties": {
+                                "engine": {
+                                    "description": "The engine schema object.",
+                                    "additionalProperties": false,
+                                    "maxProperties": 1,
+                                    "type": "object",
+                                    "properties": {
+                                        "id": {
+                                            "description": "The id of the speech to text engine to use for this language",
+                                            "type": "string"
+                                        },
+                                        "name": {
+                                            "description": "The name of the speech to text engine to use for this language",
+                                            "type": "string"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "de-de": {
+                    "description": "The 'de-de' language tag to set as a flow's supported language.",
+                    "additionalProperties": false,
+                    "maxProperties": 2,
+                    "type": "object",
+                    "properties": {
+                        "defaultLanguageSkill": {
+                            "description": "The default language skill to use for the language.",
+                            "additionalProperties": false,
+                            "$ref": "../DefArchyValues.schema.json#/definitions/ArchyPickerValueLanguageSkillLitNov"
+                        },
+                        "knowledgeBase": {
+                            "description": "The knowledge base configuration for the language.",
+                            "type": "object",
+                            "properties": {
+                                "id": {
+                                    "description": "The id of the knowledge base to use for this language.",
+                                    "type": "string"
+                                },
+                                "name": {
+                                    "description": "The name of the knowledge base to use for this language.",
+                                    "type": "string"
+                                }
+                            }
+                        },
+                        "none": {
+                            "description": "A property indicating no YAML configuration specified to set on the object.",
+                            "type": "boolean",
+                            "enum": [
+                                true
+                            ]
+                        },
+                        "speechToText": {
+                            "description": "The speech to text schema object.",
+                            "type": "object",
+                            "properties": {
+                                "engine": {
+                                    "description": "The engine schema object.",
+                                    "additionalProperties": false,
+                                    "maxProperties": 1,
+                                    "type": "object",
+                                    "properties": {
+                                        "id": {
+                                            "description": "The id of the speech to text engine to use for this language",
+                                            "type": "string"
+                                        },
+                                        "name": {
+                                            "description": "The name of the speech to text engine to use for this language",
+                                            "type": "string"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "en-au": {
+                    "description": "The 'en-au' language tag to set as a flow's supported language.",
+                    "additionalProperties": false,
+                    "maxProperties": 2,
+                    "type": "object",
+                    "properties": {
+                        "defaultLanguageSkill": {
+                            "description": "The default language skill to use for the language.",
+                            "additionalProperties": false,
+                            "$ref": "../DefArchyValues.schema.json#/definitions/ArchyPickerValueLanguageSkillLitNov"
+                        },
+                        "knowledgeBase": {
+                            "description": "The knowledge base configuration for the language.",
+                            "type": "object",
+                            "properties": {
+                                "id": {
+                                    "description": "The id of the knowledge base to use for this language.",
+                                    "type": "string"
+                                },
+                                "name": {
+                                    "description": "The name of the knowledge base to use for this language.",
+                                    "type": "string"
+                                }
+                            }
+                        },
+                        "none": {
+                            "description": "A property indicating no YAML configuration specified to set on the object.",
+                            "type": "boolean",
+                            "enum": [
+                                true
+                            ]
+                        },
+                        "speechToText": {
+                            "description": "The speech to text schema object.",
+                            "type": "object",
+                            "properties": {
+                                "engine": {
+                                    "description": "The engine schema object.",
+                                    "additionalProperties": false,
+                                    "maxProperties": 1,
+                                    "type": "object",
+                                    "properties": {
+                                        "id": {
+                                            "description": "The id of the speech to text engine to use for this language",
+                                            "type": "string"
+                                        },
+                                        "name": {
+                                            "description": "The name of the speech to text engine to use for this language",
+                                            "type": "string"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "en-gb": {
+                    "description": "The 'en-gb' language tag to set as a flow's supported language.",
+                    "additionalProperties": false,
+                    "maxProperties": 2,
+                    "type": "object",
+                    "properties": {
+                        "defaultLanguageSkill": {
+                            "description": "The default language skill to use for the language.",
+                            "additionalProperties": false,
+                            "$ref": "../DefArchyValues.schema.json#/definitions/ArchyPickerValueLanguageSkillLitNov"
+                        },
+                        "knowledgeBase": {
+                            "description": "The knowledge base configuration for the language.",
+                            "type": "object",
+                            "properties": {
+                                "id": {
+                                    "description": "The id of the knowledge base to use for this language.",
+                                    "type": "string"
+                                },
+                                "name": {
+                                    "description": "The name of the knowledge base to use for this language.",
+                                    "type": "string"
+                                }
+                            }
+                        },
+                        "none": {
+                            "description": "A property indicating no YAML configuration specified to set on the object.",
+                            "type": "boolean",
+                            "enum": [
+                                true
+                            ]
+                        },
+                        "speechToText": {
+                            "description": "The speech to text schema object.",
+                            "type": "object",
+                            "properties": {
+                                "engine": {
+                                    "description": "The engine schema object.",
+                                    "additionalProperties": false,
+                                    "maxProperties": 1,
+                                    "type": "object",
+                                    "properties": {
+                                        "id": {
+                                            "description": "The id of the speech to text engine to use for this language",
+                                            "type": "string"
+                                        },
+                                        "name": {
+                                            "description": "The name of the speech to text engine to use for this language",
+                                            "type": "string"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "en-ie": {
+                    "description": "The 'en-ie' language tag to set as a flow's supported language.",
+                    "additionalProperties": false,
+                    "maxProperties": 2,
+                    "type": "object",
+                    "properties": {
+                        "defaultLanguageSkill": {
+                            "description": "The default language skill to use for the language.",
+                            "additionalProperties": false,
+                            "$ref": "../DefArchyValues.schema.json#/definitions/ArchyPickerValueLanguageSkillLitNov"
+                        },
+                        "knowledgeBase": {
+                            "description": "The knowledge base configuration for the language.",
+                            "type": "object",
+                            "properties": {
+                                "id": {
+                                    "description": "The id of the knowledge base to use for this language.",
+                                    "type": "string"
+                                },
+                                "name": {
+                                    "description": "The name of the knowledge base to use for this language.",
+                                    "type": "string"
+                                }
+                            }
+                        },
+                        "none": {
+                            "description": "A property indicating no YAML configuration specified to set on the object.",
+                            "type": "boolean",
+                            "enum": [
+                                true
+                            ]
+                        },
+                        "speechToText": {
+                            "description": "The speech to text schema object.",
+                            "type": "object",
+                            "properties": {
+                                "engine": {
+                                    "description": "The engine schema object.",
+                                    "additionalProperties": false,
+                                    "maxProperties": 1,
+                                    "type": "object",
+                                    "properties": {
+                                        "id": {
+                                            "description": "The id of the speech to text engine to use for this language",
+                                            "type": "string"
+                                        },
+                                        "name": {
+                                            "description": "The name of the speech to text engine to use for this language",
+                                            "type": "string"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "en-nz": {
+                    "description": "The 'en-nz' language tag to set as a flow's supported language.",
+                    "additionalProperties": false,
+                    "maxProperties": 2,
+                    "type": "object",
+                    "properties": {
+                        "defaultLanguageSkill": {
+                            "description": "The default language skill to use for the language.",
+                            "additionalProperties": false,
+                            "$ref": "../DefArchyValues.schema.json#/definitions/ArchyPickerValueLanguageSkillLitNov"
+                        },
+                        "knowledgeBase": {
+                            "description": "The knowledge base configuration for the language.",
+                            "type": "object",
+                            "properties": {
+                                "id": {
+                                    "description": "The id of the knowledge base to use for this language.",
+                                    "type": "string"
+                                },
+                                "name": {
+                                    "description": "The name of the knowledge base to use for this language.",
+                                    "type": "string"
+                                }
+                            }
+                        },
+                        "none": {
+                            "description": "A property indicating no YAML configuration specified to set on the object.",
+                            "type": "boolean",
+                            "enum": [
+                                true
+                            ]
+                        },
+                        "speechToText": {
+                            "description": "The speech to text schema object.",
+                            "type": "object",
+                            "properties": {
+                                "engine": {
+                                    "description": "The engine schema object.",
+                                    "additionalProperties": false,
+                                    "maxProperties": 1,
+                                    "type": "object",
+                                    "properties": {
+                                        "id": {
+                                            "description": "The id of the speech to text engine to use for this language",
+                                            "type": "string"
+                                        },
+                                        "name": {
+                                            "description": "The name of the speech to text engine to use for this language",
+                                            "type": "string"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "en-us": {
+                    "description": "The 'en-us' language tag to set as a flow's supported language.",
+                    "additionalProperties": false,
+                    "maxProperties": 2,
+                    "type": "object",
+                    "properties": {
+                        "defaultLanguageSkill": {
+                            "description": "The default language skill to use for the language.",
+                            "additionalProperties": false,
+                            "$ref": "../DefArchyValues.schema.json#/definitions/ArchyPickerValueLanguageSkillLitNov"
+                        },
+                        "knowledgeBase": {
+                            "description": "The knowledge base configuration for the language.",
+                            "type": "object",
+                            "properties": {
+                                "id": {
+                                    "description": "The id of the knowledge base to use for this language.",
+                                    "type": "string"
+                                },
+                                "name": {
+                                    "description": "The name of the knowledge base to use for this language.",
+                                    "type": "string",
+                                    "enum": [
+                                        "Sector Salud EN-US",
+                                        "Base Sector Financiero"
+                                    ]
+                                }
+                            }
+                        },
+                        "none": {
+                            "description": "A property indicating no YAML configuration specified to set on the object.",
+                            "type": "boolean",
+                            "enum": [
+                                true
+                            ]
+                        },
+                        "speechToText": {
+                            "description": "The speech to text schema object.",
+                            "type": "object",
+                            "properties": {
+                                "engine": {
+                                    "description": "The engine schema object.",
+                                    "additionalProperties": false,
+                                    "maxProperties": 1,
+                                    "type": "object",
+                                    "properties": {
+                                        "id": {
+                                            "description": "The id of the speech to text engine to use for this language",
+                                            "type": "string"
+                                        },
+                                        "name": {
+                                            "description": "The name of the speech to text engine to use for this language",
+                                            "type": "string"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "en-za": {
+                    "description": "The 'en-za' language tag to set as a flow's supported language.",
+                    "additionalProperties": false,
+                    "maxProperties": 2,
+                    "type": "object",
+                    "properties": {
+                        "defaultLanguageSkill": {
+                            "description": "The default language skill to use for the language.",
+                            "additionalProperties": false,
+                            "$ref": "../DefArchyValues.schema.json#/definitions/ArchyPickerValueLanguageSkillLitNov"
+                        },
+                        "knowledgeBase": {
+                            "description": "The knowledge base configuration for the language.",
+                            "type": "object",
+                            "properties": {
+                                "id": {
+                                    "description": "The id of the knowledge base to use for this language.",
+                                    "type": "string"
+                                },
+                                "name": {
+                                    "description": "The name of the knowledge base to use for this language.",
+                                    "type": "string"
+                                }
+                            }
+                        },
+                        "none": {
+                            "description": "A property indicating no YAML configuration specified to set on the object.",
+                            "type": "boolean",
+                            "enum": [
+                                true
+                            ]
+                        },
+                        "speechToText": {
+                            "description": "The speech to text schema object.",
+                            "type": "object",
+                            "properties": {
+                                "engine": {
+                                    "description": "The engine schema object.",
+                                    "additionalProperties": false,
+                                    "maxProperties": 1,
+                                    "type": "object",
+                                    "properties": {
+                                        "id": {
+                                            "description": "The id of the speech to text engine to use for this language",
+                                            "type": "string"
+                                        },
+                                        "name": {
+                                            "description": "The name of the speech to text engine to use for this language",
+                                            "type": "string"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "es-es": {
+                    "description": "The 'es-es' language tag to set as a flow's supported language.",
+                    "additionalProperties": false,
+                    "maxProperties": 2,
+                    "type": "object",
+                    "properties": {
+                        "defaultLanguageSkill": {
+                            "description": "The default language skill to use for the language.",
+                            "additionalProperties": false,
+                            "$ref": "../DefArchyValues.schema.json#/definitions/ArchyPickerValueLanguageSkillLitNov"
+                        },
+                        "knowledgeBase": {
+                            "description": "The knowledge base configuration for the language.",
+                            "type": "object",
+                            "properties": {
+                                "id": {
+                                    "description": "The id of the knowledge base to use for this language.",
+                                    "type": "string"
+                                },
+                                "name": {
+                                    "description": "The name of the knowledge base to use for this language.",
+                                    "type": "string"
+                                }
+                            }
+                        },
+                        "none": {
+                            "description": "A property indicating no YAML configuration specified to set on the object.",
+                            "type": "boolean",
+                            "enum": [
+                                true
+                            ]
+                        },
+                        "speechToText": {
+                            "description": "The speech to text schema object.",
+                            "type": "object",
+                            "properties": {
+                                "engine": {
+                                    "description": "The engine schema object.",
+                                    "additionalProperties": false,
+                                    "maxProperties": 1,
+                                    "type": "object",
+                                    "properties": {
+                                        "id": {
+                                            "description": "The id of the speech to text engine to use for this language",
+                                            "type": "string"
+                                        },
+                                        "name": {
+                                            "description": "The name of the speech to text engine to use for this language",
+                                            "type": "string"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "es-mx": {
+                    "description": "The 'es-mx' language tag to set as a flow's supported language.",
+                    "additionalProperties": false,
+                    "maxProperties": 2,
+                    "type": "object",
+                    "properties": {
+                        "defaultLanguageSkill": {
+                            "description": "The default language skill to use for the language.",
+                            "additionalProperties": false,
+                            "$ref": "../DefArchyValues.schema.json#/definitions/ArchyPickerValueLanguageSkillLitNov"
+                        },
+                        "knowledgeBase": {
+                            "description": "The knowledge base configuration for the language.",
+                            "type": "object",
+                            "properties": {
+                                "id": {
+                                    "description": "The id of the knowledge base to use for this language.",
+                                    "type": "string"
+                                },
+                                "name": {
+                                    "description": "The name of the knowledge base to use for this language.",
+                                    "type": "string"
+                                }
+                            }
+                        },
+                        "none": {
+                            "description": "A property indicating no YAML configuration specified to set on the object.",
+                            "type": "boolean",
+                            "enum": [
+                                true
+                            ]
+                        },
+                        "speechToText": {
+                            "description": "The speech to text schema object.",
+                            "type": "object",
+                            "properties": {
+                                "engine": {
+                                    "description": "The engine schema object.",
+                                    "additionalProperties": false,
+                                    "maxProperties": 1,
+                                    "type": "object",
+                                    "properties": {
+                                        "id": {
+                                            "description": "The id of the speech to text engine to use for this language",
+                                            "type": "string"
+                                        },
+                                        "name": {
+                                            "description": "The name of the speech to text engine to use for this language",
+                                            "type": "string"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "es-us": {
+                    "description": "The 'es-us' language tag to set as a flow's supported language.",
+                    "additionalProperties": false,
+                    "maxProperties": 2,
+                    "type": "object",
+                    "properties": {
+                        "defaultLanguageSkill": {
+                            "description": "The default language skill to use for the language.",
+                            "additionalProperties": false,
+                            "$ref": "../DefArchyValues.schema.json#/definitions/ArchyPickerValueLanguageSkillLitNov"
+                        },
+                        "knowledgeBase": {
+                            "description": "The knowledge base configuration for the language.",
+                            "type": "object",
+                            "properties": {
+                                "id": {
+                                    "description": "The id of the knowledge base to use for this language.",
+                                    "type": "string"
+                                },
+                                "name": {
+                                    "description": "The name of the knowledge base to use for this language.",
+                                    "type": "string",
+                                    "enum": [
+                                        "Hackaton2024",
+                                        "Base Sector Salud",
+                                        "NeoBank"
+                                    ]
+                                }
+                            }
+                        },
+                        "none": {
+                            "description": "A property indicating no YAML configuration specified to set on the object.",
+                            "type": "boolean",
+                            "enum": [
+                                true
+                            ]
+                        },
+                        "speechToText": {
+                            "description": "The speech to text schema object.",
+                            "type": "object",
+                            "properties": {
+                                "engine": {
+                                    "description": "The engine schema object.",
+                                    "additionalProperties": false,
+                                    "maxProperties": 1,
+                                    "type": "object",
+                                    "properties": {
+                                        "id": {
+                                            "description": "The id of the speech to text engine to use for this language",
+                                            "type": "string"
+                                        },
+                                        "name": {
+                                            "description": "The name of the speech to text engine to use for this language",
+                                            "type": "string"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "eu-es": {
+                    "description": "The 'eu-es' language tag to set as a flow's supported language.",
+                    "additionalProperties": false,
+                    "maxProperties": 2,
+                    "type": "object",
+                    "properties": {
+                        "defaultLanguageSkill": {
+                            "description": "The default language skill to use for the language.",
+                            "additionalProperties": false,
+                            "$ref": "../DefArchyValues.schema.json#/definitions/ArchyPickerValueLanguageSkillLitNov"
+                        },
+                        "knowledgeBase": {
+                            "description": "The knowledge base configuration for the language.",
+                            "type": "object",
+                            "properties": {
+                                "id": {
+                                    "description": "The id of the knowledge base to use for this language.",
+                                    "type": "string"
+                                },
+                                "name": {
+                                    "description": "The name of the knowledge base to use for this language.",
+                                    "type": "string"
+                                }
+                            }
+                        },
+                        "none": {
+                            "description": "A property indicating no YAML configuration specified to set on the object.",
+                            "type": "boolean",
+                            "enum": [
+                                true
+                            ]
+                        },
+                        "speechToText": {
+                            "description": "The speech to text schema object.",
+                            "type": "object",
+                            "properties": {
+                                "engine": {
+                                    "description": "The engine schema object.",
+                                    "additionalProperties": false,
+                                    "maxProperties": 1,
+                                    "type": "object",
+                                    "properties": {
+                                        "id": {
+                                            "description": "The id of the speech to text engine to use for this language",
+                                            "type": "string"
+                                        },
+                                        "name": {
+                                            "description": "The name of the speech to text engine to use for this language",
+                                            "type": "string"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "fi-fi": {
+                    "description": "The 'fi-fi' language tag to set as a flow's supported language.",
+                    "additionalProperties": false,
+                    "maxProperties": 2,
+                    "type": "object",
+                    "properties": {
+                        "defaultLanguageSkill": {
+                            "description": "The default language skill to use for the language.",
+                            "additionalProperties": false,
+                            "$ref": "../DefArchyValues.schema.json#/definitions/ArchyPickerValueLanguageSkillLitNov"
+                        },
+                        "knowledgeBase": {
+                            "description": "The knowledge base configuration for the language.",
+                            "type": "object",
+                            "properties": {
+                                "id": {
+                                    "description": "The id of the knowledge base to use for this language.",
+                                    "type": "string"
+                                },
+                                "name": {
+                                    "description": "The name of the knowledge base to use for this language.",
+                                    "type": "string"
+                                }
+                            }
+                        },
+                        "none": {
+                            "description": "A property indicating no YAML configuration specified to set on the object.",
+                            "type": "boolean",
+                            "enum": [
+                                true
+                            ]
+                        },
+                        "speechToText": {
+                            "description": "The speech to text schema object.",
+                            "type": "object",
+                            "properties": {
+                                "engine": {
+                                    "description": "The engine schema object.",
+                                    "additionalProperties": false,
+                                    "maxProperties": 1,
+                                    "type": "object",
+                                    "properties": {
+                                        "id": {
+                                            "description": "The id of the speech to text engine to use for this language",
+                                            "type": "string"
+                                        },
+                                        "name": {
+                                            "description": "The name of the speech to text engine to use for this language",
+                                            "type": "string"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "fr-ca": {
+                    "description": "The 'fr-ca' language tag to set as a flow's supported language.",
+                    "additionalProperties": false,
+                    "maxProperties": 2,
+                    "type": "object",
+                    "properties": {
+                        "defaultLanguageSkill": {
+                            "description": "The default language skill to use for the language.",
+                            "additionalProperties": false,
+                            "$ref": "../DefArchyValues.schema.json#/definitions/ArchyPickerValueLanguageSkillLitNov"
+                        },
+                        "knowledgeBase": {
+                            "description": "The knowledge base configuration for the language.",
+                            "type": "object",
+                            "properties": {
+                                "id": {
+                                    "description": "The id of the knowledge base to use for this language.",
+                                    "type": "string"
+                                },
+                                "name": {
+                                    "description": "The name of the knowledge base to use for this language.",
+                                    "type": "string"
+                                }
+                            }
+                        },
+                        "none": {
+                            "description": "A property indicating no YAML configuration specified to set on the object.",
+                            "type": "boolean",
+                            "enum": [
+                                true
+                            ]
+                        },
+                        "speechToText": {
+                            "description": "The speech to text schema object.",
+                            "type": "object",
+                            "properties": {
+                                "engine": {
+                                    "description": "The engine schema object.",
+                                    "additionalProperties": false,
+                                    "maxProperties": 1,
+                                    "type": "object",
+                                    "properties": {
+                                        "id": {
+                                            "description": "The id of the speech to text engine to use for this language",
+                                            "type": "string"
+                                        },
+                                        "name": {
+                                            "description": "The name of the speech to text engine to use for this language",
+                                            "type": "string"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "fr-fr": {
+                    "description": "The 'fr-fr' language tag to set as a flow's supported language.",
+                    "additionalProperties": false,
+                    "maxProperties": 2,
+                    "type": "object",
+                    "properties": {
+                        "defaultLanguageSkill": {
+                            "description": "The default language skill to use for the language.",
+                            "additionalProperties": false,
+                            "$ref": "../DefArchyValues.schema.json#/definitions/ArchyPickerValueLanguageSkillLitNov"
+                        },
+                        "knowledgeBase": {
+                            "description": "The knowledge base configuration for the language.",
+                            "type": "object",
+                            "properties": {
+                                "id": {
+                                    "description": "The id of the knowledge base to use for this language.",
+                                    "type": "string"
+                                },
+                                "name": {
+                                    "description": "The name of the knowledge base to use for this language.",
+                                    "type": "string"
+                                }
+                            }
+                        },
+                        "none": {
+                            "description": "A property indicating no YAML configuration specified to set on the object.",
+                            "type": "boolean",
+                            "enum": [
+                                true
+                            ]
+                        },
+                        "speechToText": {
+                            "description": "The speech to text schema object.",
+                            "type": "object",
+                            "properties": {
+                                "engine": {
+                                    "description": "The engine schema object.",
+                                    "additionalProperties": false,
+                                    "maxProperties": 1,
+                                    "type": "object",
+                                    "properties": {
+                                        "id": {
+                                            "description": "The id of the speech to text engine to use for this language",
+                                            "type": "string"
+                                        },
+                                        "name": {
+                                            "description": "The name of the speech to text engine to use for this language",
+                                            "type": "string"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "it-it": {
+                    "description": "The 'it-it' language tag to set as a flow's supported language.",
+                    "additionalProperties": false,
+                    "maxProperties": 2,
+                    "type": "object",
+                    "properties": {
+                        "defaultLanguageSkill": {
+                            "description": "The default language skill to use for the language.",
+                            "additionalProperties": false,
+                            "$ref": "../DefArchyValues.schema.json#/definitions/ArchyPickerValueLanguageSkillLitNov"
+                        },
+                        "knowledgeBase": {
+                            "description": "The knowledge base configuration for the language.",
+                            "type": "object",
+                            "properties": {
+                                "id": {
+                                    "description": "The id of the knowledge base to use for this language.",
+                                    "type": "string"
+                                },
+                                "name": {
+                                    "description": "The name of the knowledge base to use for this language.",
+                                    "type": "string"
+                                }
+                            }
+                        },
+                        "none": {
+                            "description": "A property indicating no YAML configuration specified to set on the object.",
+                            "type": "boolean",
+                            "enum": [
+                                true
+                            ]
+                        },
+                        "speechToText": {
+                            "description": "The speech to text schema object.",
+                            "type": "object",
+                            "properties": {
+                                "engine": {
+                                    "description": "The engine schema object.",
+                                    "additionalProperties": false,
+                                    "maxProperties": 1,
+                                    "type": "object",
+                                    "properties": {
+                                        "id": {
+                                            "description": "The id of the speech to text engine to use for this language",
+                                            "type": "string"
+                                        },
+                                        "name": {
+                                            "description": "The name of the speech to text engine to use for this language",
+                                            "type": "string"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "ja-jp": {
+                    "description": "The 'ja-jp' language tag to set as a flow's supported language.",
+                    "additionalProperties": false,
+                    "maxProperties": 2,
+                    "type": "object",
+                    "properties": {
+                        "defaultLanguageSkill": {
+                            "description": "The default language skill to use for the language.",
+                            "additionalProperties": false,
+                            "$ref": "../DefArchyValues.schema.json#/definitions/ArchyPickerValueLanguageSkillLitNov"
+                        },
+                        "knowledgeBase": {
+                            "description": "The knowledge base configuration for the language.",
+                            "type": "object",
+                            "properties": {
+                                "id": {
+                                    "description": "The id of the knowledge base to use for this language.",
+                                    "type": "string"
+                                },
+                                "name": {
+                                    "description": "The name of the knowledge base to use for this language.",
+                                    "type": "string"
+                                }
+                            }
+                        },
+                        "none": {
+                            "description": "A property indicating no YAML configuration specified to set on the object.",
+                            "type": "boolean",
+                            "enum": [
+                                true
+                            ]
+                        },
+                        "speechToText": {
+                            "description": "The speech to text schema object.",
+                            "type": "object",
+                            "properties": {
+                                "engine": {
+                                    "description": "The engine schema object.",
+                                    "additionalProperties": false,
+                                    "maxProperties": 1,
+                                    "type": "object",
+                                    "properties": {
+                                        "id": {
+                                            "description": "The id of the speech to text engine to use for this language",
+                                            "type": "string"
+                                        },
+                                        "name": {
+                                            "description": "The name of the speech to text engine to use for this language",
+                                            "type": "string"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "ko-kr": {
+                    "description": "The 'ko-kr' language tag to set as a flow's supported language.",
+                    "additionalProperties": false,
+                    "maxProperties": 2,
+                    "type": "object",
+                    "properties": {
+                        "defaultLanguageSkill": {
+                            "description": "The default language skill to use for the language.",
+                            "additionalProperties": false,
+                            "$ref": "../DefArchyValues.schema.json#/definitions/ArchyPickerValueLanguageSkillLitNov"
+                        },
+                        "knowledgeBase": {
+                            "description": "The knowledge base configuration for the language.",
+                            "type": "object",
+                            "properties": {
+                                "id": {
+                                    "description": "The id of the knowledge base to use for this language.",
+                                    "type": "string"
+                                },
+                                "name": {
+                                    "description": "The name of the knowledge base to use for this language.",
+                                    "type": "string"
+                                }
+                            }
+                        },
+                        "none": {
+                            "description": "A property indicating no YAML configuration specified to set on the object.",
+                            "type": "boolean",
+                            "enum": [
+                                true
+                            ]
+                        },
+                        "speechToText": {
+                            "description": "The speech to text schema object.",
+                            "type": "object",
+                            "properties": {
+                                "engine": {
+                                    "description": "The engine schema object.",
+                                    "additionalProperties": false,
+                                    "maxProperties": 1,
+                                    "type": "object",
+                                    "properties": {
+                                        "id": {
+                                            "description": "The id of the speech to text engine to use for this language",
+                                            "type": "string"
+                                        },
+                                        "name": {
+                                            "description": "The name of the speech to text engine to use for this language",
+                                            "type": "string"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "nb-no": {
+                    "description": "The 'nb-no' language tag to set as a flow's supported language.",
+                    "additionalProperties": false,
+                    "maxProperties": 2,
+                    "type": "object",
+                    "properties": {
+                        "defaultLanguageSkill": {
+                            "description": "The default language skill to use for the language.",
+                            "additionalProperties": false,
+                            "$ref": "../DefArchyValues.schema.json#/definitions/ArchyPickerValueLanguageSkillLitNov"
+                        },
+                        "knowledgeBase": {
+                            "description": "The knowledge base configuration for the language.",
+                            "type": "object",
+                            "properties": {
+                                "id": {
+                                    "description": "The id of the knowledge base to use for this language.",
+                                    "type": "string"
+                                },
+                                "name": {
+                                    "description": "The name of the knowledge base to use for this language.",
+                                    "type": "string"
+                                }
+                            }
+                        },
+                        "none": {
+                            "description": "A property indicating no YAML configuration specified to set on the object.",
+                            "type": "boolean",
+                            "enum": [
+                                true
+                            ]
+                        },
+                        "speechToText": {
+                            "description": "The speech to text schema object.",
+                            "type": "object",
+                            "properties": {
+                                "engine": {
+                                    "description": "The engine schema object.",
+                                    "additionalProperties": false,
+                                    "maxProperties": 1,
+                                    "type": "object",
+                                    "properties": {
+                                        "id": {
+                                            "description": "The id of the speech to text engine to use for this language",
+                                            "type": "string"
+                                        },
+                                        "name": {
+                                            "description": "The name of the speech to text engine to use for this language",
+                                            "type": "string"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "nl-nl": {
+                    "description": "The 'nl-nl' language tag to set as a flow's supported language.",
+                    "additionalProperties": false,
+                    "maxProperties": 2,
+                    "type": "object",
+                    "properties": {
+                        "defaultLanguageSkill": {
+                            "description": "The default language skill to use for the language.",
+                            "additionalProperties": false,
+                            "$ref": "../DefArchyValues.schema.json#/definitions/ArchyPickerValueLanguageSkillLitNov"
+                        },
+                        "knowledgeBase": {
+                            "description": "The knowledge base configuration for the language.",
+                            "type": "object",
+                            "properties": {
+                                "id": {
+                                    "description": "The id of the knowledge base to use for this language.",
+                                    "type": "string"
+                                },
+                                "name": {
+                                    "description": "The name of the knowledge base to use for this language.",
+                                    "type": "string"
+                                }
+                            }
+                        },
+                        "none": {
+                            "description": "A property indicating no YAML configuration specified to set on the object.",
+                            "type": "boolean",
+                            "enum": [
+                                true
+                            ]
+                        },
+                        "speechToText": {
+                            "description": "The speech to text schema object.",
+                            "type": "object",
+                            "properties": {
+                                "engine": {
+                                    "description": "The engine schema object.",
+                                    "additionalProperties": false,
+                                    "maxProperties": 1,
+                                    "type": "object",
+                                    "properties": {
+                                        "id": {
+                                            "description": "The id of the speech to text engine to use for this language",
+                                            "type": "string"
+                                        },
+                                        "name": {
+                                            "description": "The name of the speech to text engine to use for this language",
+                                            "type": "string"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "pl-pl": {
+                    "description": "The 'pl-pl' language tag to set as a flow's supported language.",
+                    "additionalProperties": false,
+                    "maxProperties": 2,
+                    "type": "object",
+                    "properties": {
+                        "defaultLanguageSkill": {
+                            "description": "The default language skill to use for the language.",
+                            "additionalProperties": false,
+                            "$ref": "../DefArchyValues.schema.json#/definitions/ArchyPickerValueLanguageSkillLitNov"
+                        },
+                        "knowledgeBase": {
+                            "description": "The knowledge base configuration for the language.",
+                            "type": "object",
+                            "properties": {
+                                "id": {
+                                    "description": "The id of the knowledge base to use for this language.",
+                                    "type": "string"
+                                },
+                                "name": {
+                                    "description": "The name of the knowledge base to use for this language.",
+                                    "type": "string"
+                                }
+                            }
+                        },
+                        "none": {
+                            "description": "A property indicating no YAML configuration specified to set on the object.",
+                            "type": "boolean",
+                            "enum": [
+                                true
+                            ]
+                        },
+                        "speechToText": {
+                            "description": "The speech to text schema object.",
+                            "type": "object",
+                            "properties": {
+                                "engine": {
+                                    "description": "The engine schema object.",
+                                    "additionalProperties": false,
+                                    "maxProperties": 1,
+                                    "type": "object",
+                                    "properties": {
+                                        "id": {
+                                            "description": "The id of the speech to text engine to use for this language",
+                                            "type": "string"
+                                        },
+                                        "name": {
+                                            "description": "The name of the speech to text engine to use for this language",
+                                            "type": "string"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "pt-br": {
+                    "description": "The 'pt-br' language tag to set as a flow's supported language.",
+                    "additionalProperties": false,
+                    "maxProperties": 2,
+                    "type": "object",
+                    "properties": {
+                        "defaultLanguageSkill": {
+                            "description": "The default language skill to use for the language.",
+                            "additionalProperties": false,
+                            "$ref": "../DefArchyValues.schema.json#/definitions/ArchyPickerValueLanguageSkillLitNov"
+                        },
+                        "knowledgeBase": {
+                            "description": "The knowledge base configuration for the language.",
+                            "type": "object",
+                            "properties": {
+                                "id": {
+                                    "description": "The id of the knowledge base to use for this language.",
+                                    "type": "string"
+                                },
+                                "name": {
+                                    "description": "The name of the knowledge base to use for this language.",
+                                    "type": "string"
+                                }
+                            }
+                        },
+                        "none": {
+                            "description": "A property indicating no YAML configuration specified to set on the object.",
+                            "type": "boolean",
+                            "enum": [
+                                true
+                            ]
+                        },
+                        "speechToText": {
+                            "description": "The speech to text schema object.",
+                            "type": "object",
+                            "properties": {
+                                "engine": {
+                                    "description": "The engine schema object.",
+                                    "additionalProperties": false,
+                                    "maxProperties": 1,
+                                    "type": "object",
+                                    "properties": {
+                                        "id": {
+                                            "description": "The id of the speech to text engine to use for this language",
+                                            "type": "string"
+                                        },
+                                        "name": {
+                                            "description": "The name of the speech to text engine to use for this language",
+                                            "type": "string"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "pt-pt": {
+                    "description": "The 'pt-pt' language tag to set as a flow's supported language.",
+                    "additionalProperties": false,
+                    "maxProperties": 2,
+                    "type": "object",
+                    "properties": {
+                        "defaultLanguageSkill": {
+                            "description": "The default language skill to use for the language.",
+                            "additionalProperties": false,
+                            "$ref": "../DefArchyValues.schema.json#/definitions/ArchyPickerValueLanguageSkillLitNov"
+                        },
+                        "knowledgeBase": {
+                            "description": "The knowledge base configuration for the language.",
+                            "type": "object",
+                            "properties": {
+                                "id": {
+                                    "description": "The id of the knowledge base to use for this language.",
+                                    "type": "string"
+                                },
+                                "name": {
+                                    "description": "The name of the knowledge base to use for this language.",
+                                    "type": "string"
+                                }
+                            }
+                        },
+                        "none": {
+                            "description": "A property indicating no YAML configuration specified to set on the object.",
+                            "type": "boolean",
+                            "enum": [
+                                true
+                            ]
+                        },
+                        "speechToText": {
+                            "description": "The speech to text schema object.",
+                            "type": "object",
+                            "properties": {
+                                "engine": {
+                                    "description": "The engine schema object.",
+                                    "additionalProperties": false,
+                                    "maxProperties": 1,
+                                    "type": "object",
+                                    "properties": {
+                                        "id": {
+                                            "description": "The id of the speech to text engine to use for this language",
+                                            "type": "string"
+                                        },
+                                        "name": {
+                                            "description": "The name of the speech to text engine to use for this language",
+                                            "type": "string"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "sv-se": {
+                    "description": "The 'sv-se' language tag to set as a flow's supported language.",
+                    "additionalProperties": false,
+                    "maxProperties": 2,
+                    "type": "object",
+                    "properties": {
+                        "defaultLanguageSkill": {
+                            "description": "The default language skill to use for the language.",
+                            "additionalProperties": false,
+                            "$ref": "../DefArchyValues.schema.json#/definitions/ArchyPickerValueLanguageSkillLitNov"
+                        },
+                        "knowledgeBase": {
+                            "description": "The knowledge base configuration for the language.",
+                            "type": "object",
+                            "properties": {
+                                "id": {
+                                    "description": "The id of the knowledge base to use for this language.",
+                                    "type": "string"
+                                },
+                                "name": {
+                                    "description": "The name of the knowledge base to use for this language.",
+                                    "type": "string"
+                                }
+                            }
+                        },
+                        "none": {
+                            "description": "A property indicating no YAML configuration specified to set on the object.",
+                            "type": "boolean",
+                            "enum": [
+                                true
+                            ]
+                        },
+                        "speechToText": {
+                            "description": "The speech to text schema object.",
+                            "type": "object",
+                            "properties": {
+                                "engine": {
+                                    "description": "The engine schema object.",
+                                    "additionalProperties": false,
+                                    "maxProperties": 1,
+                                    "type": "object",
+                                    "properties": {
+                                        "id": {
+                                            "description": "The id of the speech to text engine to use for this language",
+                                            "type": "string"
+                                        },
+                                        "name": {
+                                            "description": "The name of the speech to text engine to use for this language",
+                                            "type": "string"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "tr-tr": {
+                    "description": "The 'tr-tr' language tag to set as a flow's supported language.",
+                    "additionalProperties": false,
+                    "maxProperties": 2,
+                    "type": "object",
+                    "properties": {
+                        "defaultLanguageSkill": {
+                            "description": "The default language skill to use for the language.",
+                            "additionalProperties": false,
+                            "$ref": "../DefArchyValues.schema.json#/definitions/ArchyPickerValueLanguageSkillLitNov"
+                        },
+                        "knowledgeBase": {
+                            "description": "The knowledge base configuration for the language.",
+                            "type": "object",
+                            "properties": {
+                                "id": {
+                                    "description": "The id of the knowledge base to use for this language.",
+                                    "type": "string"
+                                },
+                                "name": {
+                                    "description": "The name of the knowledge base to use for this language.",
+                                    "type": "string"
+                                }
+                            }
+                        },
+                        "none": {
+                            "description": "A property indicating no YAML configuration specified to set on the object.",
+                            "type": "boolean",
+                            "enum": [
+                                true
+                            ]
+                        },
+                        "speechToText": {
+                            "description": "The speech to text schema object.",
+                            "type": "object",
+                            "properties": {
+                                "engine": {
+                                    "description": "The engine schema object.",
+                                    "additionalProperties": false,
+                                    "maxProperties": 1,
+                                    "type": "object",
+                                    "properties": {
+                                        "id": {
+                                            "description": "The id of the speech to text engine to use for this language",
+                                            "type": "string"
+                                        },
+                                        "name": {
+                                            "description": "The name of the speech to text engine to use for this language",
+                                            "type": "string"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "zh-cn": {
+                    "description": "The 'zh-cn' language tag to set as a flow's supported language.",
+                    "additionalProperties": false,
+                    "maxProperties": 2,
+                    "type": "object",
+                    "properties": {
+                        "defaultLanguageSkill": {
+                            "description": "The default language skill to use for the language.",
+                            "additionalProperties": false,
+                            "$ref": "../DefArchyValues.schema.json#/definitions/ArchyPickerValueLanguageSkillLitNov"
+                        },
+                        "knowledgeBase": {
+                            "description": "The knowledge base configuration for the language.",
+                            "type": "object",
+                            "properties": {
+                                "id": {
+                                    "description": "The id of the knowledge base to use for this language.",
+                                    "type": "string"
+                                },
+                                "name": {
+                                    "description": "The name of the knowledge base to use for this language.",
+                                    "type": "string"
+                                }
+                            }
+                        },
+                        "none": {
+                            "description": "A property indicating no YAML configuration specified to set on the object.",
+                            "type": "boolean",
+                            "enum": [
+                                true
+                            ]
+                        },
+                        "speechToText": {
+                            "description": "The speech to text schema object.",
+                            "type": "object",
+                            "properties": {
+                                "engine": {
+                                    "description": "The engine schema object.",
+                                    "additionalProperties": false,
+                                    "maxProperties": 1,
+                                    "type": "object",
+                                    "properties": {
+                                        "id": {
+                                            "description": "The id of the speech to text engine to use for this language",
+                                            "type": "string"
+                                        },
+                                        "name": {
+                                            "description": "The name of the speech to text engine to use for this language",
+                                            "type": "string"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "zh-hk": {
+                    "description": "The 'zh-hk' language tag to set as a flow's supported language.",
+                    "additionalProperties": false,
+                    "maxProperties": 2,
+                    "type": "object",
+                    "properties": {
+                        "defaultLanguageSkill": {
+                            "description": "The default language skill to use for the language.",
+                            "additionalProperties": false,
+                            "$ref": "../DefArchyValues.schema.json#/definitions/ArchyPickerValueLanguageSkillLitNov"
+                        },
+                        "knowledgeBase": {
+                            "description": "The knowledge base configuration for the language.",
+                            "type": "object",
+                            "properties": {
+                                "id": {
+                                    "description": "The id of the knowledge base to use for this language.",
+                                    "type": "string"
+                                },
+                                "name": {
+                                    "description": "The name of the knowledge base to use for this language.",
+                                    "type": "string"
+                                }
+                            }
+                        },
+                        "none": {
+                            "description": "A property indicating no YAML configuration specified to set on the object.",
+                            "type": "boolean",
+                            "enum": [
+                                true
+                            ]
+                        },
+                        "speechToText": {
+                            "description": "The speech to text schema object.",
+                            "type": "object",
+                            "properties": {
+                                "engine": {
+                                    "description": "The engine schema object.",
+                                    "additionalProperties": false,
+                                    "maxProperties": 1,
+                                    "type": "object",
+                                    "properties": {
+                                        "id": {
+                                            "description": "The id of the speech to text engine to use for this language",
+                                            "type": "string"
+                                        },
+                                        "name": {
+                                            "description": "The name of the speech to text engine to use for this language",
+                                            "type": "string"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "zh-tw": {
+                    "description": "The 'zh-tw' language tag to set as a flow's supported language.",
+                    "additionalProperties": false,
+                    "maxProperties": 2,
+                    "type": "object",
+                    "properties": {
+                        "defaultLanguageSkill": {
+                            "description": "The default language skill to use for the language.",
+                            "additionalProperties": false,
+                            "$ref": "../DefArchyValues.schema.json#/definitions/ArchyPickerValueLanguageSkillLitNov"
+                        },
+                        "knowledgeBase": {
+                            "description": "The knowledge base configuration for the language.",
+                            "type": "object",
+                            "properties": {
+                                "id": {
+                                    "description": "The id of the knowledge base to use for this language.",
+                                    "type": "string"
+                                },
+                                "name": {
+                                    "description": "The name of the knowledge base to use for this language.",
+                                    "type": "string"
+                                }
+                            }
+                        },
+                        "none": {
+                            "description": "A property indicating no YAML configuration specified to set on the object.",
+                            "type": "boolean",
+                            "enum": [
+                                true
+                            ]
+                        },
+                        "speechToText": {
+                            "description": "The speech to text schema object.",
+                            "type": "object",
+                            "properties": {
+                                "engine": {
+                                    "description": "The engine schema object.",
+                                    "additionalProperties": false,
+                                    "maxProperties": 1,
+                                    "type": "object",
+                                    "properties": {
+                                        "id": {
+                                            "description": "The id of the speech to text engine to use for this language",
+                                            "type": "string"
+                                        },
+                                        "name": {
+                                            "description": "The name of the speech to text engine to use for this language",
+                                            "type": "string"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

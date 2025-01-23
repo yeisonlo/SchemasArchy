@@ -1,0 +1,1076 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$archyVersion": "2.33.1",
+    "description": "Architect Yaml auto-generated definitions for the flow's supported language settings for the organization 'CIBERCUSW' (id: 'dc24bb46-f552-4c3e-99cb-d28d0e773758') - generated at 2025-01-23T15:21:07.010Z.",
+    "definitions": {
+        "ArchyDigitalbotSupportedLanguageSettings": {
+            "additionalProperties": false,
+            "type": "object",
+            "properties": {
+                "ar-ae": {
+                    "description": "The 'ar-ae' language tag to set as a flow's supported language.",
+                    "additionalProperties": false,
+                    "maxProperties": 2,
+                    "type": "object",
+                    "properties": {
+                        "defaultLanguageSkill": {
+                            "description": "The default language skill to use for the language.",
+                            "additionalProperties": false,
+                            "$ref": "../DefArchyValues.schema.json#/definitions/ArchyPickerValueLanguageSkillLitNov"
+                        },
+                        "knowledgeBase": {
+                            "description": "The knowledge base configuration for the language.",
+                            "type": "object",
+                            "properties": {
+                                "id": {
+                                    "description": "The id of the knowledge base to use for this language.",
+                                    "type": "string"
+                                },
+                                "name": {
+                                    "description": "The name of the knowledge base to use for this language.",
+                                    "type": "string"
+                                }
+                            }
+                        },
+                        "none": {
+                            "description": "A property indicating no YAML configuration specified to set on the object.",
+                            "type": "boolean",
+                            "enum": [
+                                true
+                            ]
+                        }
+                    }
+                },
+                "ca-es": {
+                    "description": "The 'ca-es' language tag to set as a flow's supported language.",
+                    "additionalProperties": false,
+                    "maxProperties": 2,
+                    "type": "object",
+                    "properties": {
+                        "defaultLanguageSkill": {
+                            "description": "The default language skill to use for the language.",
+                            "additionalProperties": false,
+                            "$ref": "../DefArchyValues.schema.json#/definitions/ArchyPickerValueLanguageSkillLitNov"
+                        },
+                        "knowledgeBase": {
+                            "description": "The knowledge base configuration for the language.",
+                            "type": "object",
+                            "properties": {
+                                "id": {
+                                    "description": "The id of the knowledge base to use for this language.",
+                                    "type": "string"
+                                },
+                                "name": {
+                                    "description": "The name of the knowledge base to use for this language.",
+                                    "type": "string"
+                                }
+                            }
+                        },
+                        "none": {
+                            "description": "A property indicating no YAML configuration specified to set on the object.",
+                            "type": "boolean",
+                            "enum": [
+                                true
+                            ]
+                        }
+                    }
+                },
+                "da-dk": {
+                    "description": "The 'da-dk' language tag to set as a flow's supported language.",
+                    "additionalProperties": false,
+                    "maxProperties": 2,
+                    "type": "object",
+                    "properties": {
+                        "defaultLanguageSkill": {
+                            "description": "The default language skill to use for the language.",
+                            "additionalProperties": false,
+                            "$ref": "../DefArchyValues.schema.json#/definitions/ArchyPickerValueLanguageSkillLitNov"
+                        },
+                        "knowledgeBase": {
+                            "description": "The knowledge base configuration for the language.",
+                            "type": "object",
+                            "properties": {
+                                "id": {
+                                    "description": "The id of the knowledge base to use for this language.",
+                                    "type": "string"
+                                },
+                                "name": {
+                                    "description": "The name of the knowledge base to use for this language.",
+                                    "type": "string"
+                                }
+                            }
+                        },
+                        "none": {
+                            "description": "A property indicating no YAML configuration specified to set on the object.",
+                            "type": "boolean",
+                            "enum": [
+                                true
+                            ]
+                        }
+                    }
+                },
+                "de-ch": {
+                    "description": "The 'de-ch' language tag to set as a flow's supported language.",
+                    "additionalProperties": false,
+                    "maxProperties": 2,
+                    "type": "object",
+                    "properties": {
+                        "defaultLanguageSkill": {
+                            "description": "The default language skill to use for the language.",
+                            "additionalProperties": false,
+                            "$ref": "../DefArchyValues.schema.json#/definitions/ArchyPickerValueLanguageSkillLitNov"
+                        },
+                        "knowledgeBase": {
+                            "description": "The knowledge base configuration for the language.",
+                            "type": "object",
+                            "properties": {
+                                "id": {
+                                    "description": "The id of the knowledge base to use for this language.",
+                                    "type": "string"
+                                },
+                                "name": {
+                                    "description": "The name of the knowledge base to use for this language.",
+                                    "type": "string"
+                                }
+                            }
+                        },
+                        "none": {
+                            "description": "A property indicating no YAML configuration specified to set on the object.",
+                            "type": "boolean",
+                            "enum": [
+                                true
+                            ]
+                        }
+                    }
+                },
+                "de-de": {
+                    "description": "The 'de-de' language tag to set as a flow's supported language.",
+                    "additionalProperties": false,
+                    "maxProperties": 2,
+                    "type": "object",
+                    "properties": {
+                        "defaultLanguageSkill": {
+                            "description": "The default language skill to use for the language.",
+                            "additionalProperties": false,
+                            "$ref": "../DefArchyValues.schema.json#/definitions/ArchyPickerValueLanguageSkillLitNov"
+                        },
+                        "knowledgeBase": {
+                            "description": "The knowledge base configuration for the language.",
+                            "type": "object",
+                            "properties": {
+                                "id": {
+                                    "description": "The id of the knowledge base to use for this language.",
+                                    "type": "string"
+                                },
+                                "name": {
+                                    "description": "The name of the knowledge base to use for this language.",
+                                    "type": "string"
+                                }
+                            }
+                        },
+                        "none": {
+                            "description": "A property indicating no YAML configuration specified to set on the object.",
+                            "type": "boolean",
+                            "enum": [
+                                true
+                            ]
+                        }
+                    }
+                },
+                "en-au": {
+                    "description": "The 'en-au' language tag to set as a flow's supported language.",
+                    "additionalProperties": false,
+                    "maxProperties": 2,
+                    "type": "object",
+                    "properties": {
+                        "defaultLanguageSkill": {
+                            "description": "The default language skill to use for the language.",
+                            "additionalProperties": false,
+                            "$ref": "../DefArchyValues.schema.json#/definitions/ArchyPickerValueLanguageSkillLitNov"
+                        },
+                        "knowledgeBase": {
+                            "description": "The knowledge base configuration for the language.",
+                            "type": "object",
+                            "properties": {
+                                "id": {
+                                    "description": "The id of the knowledge base to use for this language.",
+                                    "type": "string"
+                                },
+                                "name": {
+                                    "description": "The name of the knowledge base to use for this language.",
+                                    "type": "string"
+                                }
+                            }
+                        },
+                        "none": {
+                            "description": "A property indicating no YAML configuration specified to set on the object.",
+                            "type": "boolean",
+                            "enum": [
+                                true
+                            ]
+                        }
+                    }
+                },
+                "en-gb": {
+                    "description": "The 'en-gb' language tag to set as a flow's supported language.",
+                    "additionalProperties": false,
+                    "maxProperties": 2,
+                    "type": "object",
+                    "properties": {
+                        "defaultLanguageSkill": {
+                            "description": "The default language skill to use for the language.",
+                            "additionalProperties": false,
+                            "$ref": "../DefArchyValues.schema.json#/definitions/ArchyPickerValueLanguageSkillLitNov"
+                        },
+                        "knowledgeBase": {
+                            "description": "The knowledge base configuration for the language.",
+                            "type": "object",
+                            "properties": {
+                                "id": {
+                                    "description": "The id of the knowledge base to use for this language.",
+                                    "type": "string"
+                                },
+                                "name": {
+                                    "description": "The name of the knowledge base to use for this language.",
+                                    "type": "string"
+                                }
+                            }
+                        },
+                        "none": {
+                            "description": "A property indicating no YAML configuration specified to set on the object.",
+                            "type": "boolean",
+                            "enum": [
+                                true
+                            ]
+                        }
+                    }
+                },
+                "en-ie": {
+                    "description": "The 'en-ie' language tag to set as a flow's supported language.",
+                    "additionalProperties": false,
+                    "maxProperties": 2,
+                    "type": "object",
+                    "properties": {
+                        "defaultLanguageSkill": {
+                            "description": "The default language skill to use for the language.",
+                            "additionalProperties": false,
+                            "$ref": "../DefArchyValues.schema.json#/definitions/ArchyPickerValueLanguageSkillLitNov"
+                        },
+                        "knowledgeBase": {
+                            "description": "The knowledge base configuration for the language.",
+                            "type": "object",
+                            "properties": {
+                                "id": {
+                                    "description": "The id of the knowledge base to use for this language.",
+                                    "type": "string"
+                                },
+                                "name": {
+                                    "description": "The name of the knowledge base to use for this language.",
+                                    "type": "string"
+                                }
+                            }
+                        },
+                        "none": {
+                            "description": "A property indicating no YAML configuration specified to set on the object.",
+                            "type": "boolean",
+                            "enum": [
+                                true
+                            ]
+                        }
+                    }
+                },
+                "en-nz": {
+                    "description": "The 'en-nz' language tag to set as a flow's supported language.",
+                    "additionalProperties": false,
+                    "maxProperties": 2,
+                    "type": "object",
+                    "properties": {
+                        "defaultLanguageSkill": {
+                            "description": "The default language skill to use for the language.",
+                            "additionalProperties": false,
+                            "$ref": "../DefArchyValues.schema.json#/definitions/ArchyPickerValueLanguageSkillLitNov"
+                        },
+                        "knowledgeBase": {
+                            "description": "The knowledge base configuration for the language.",
+                            "type": "object",
+                            "properties": {
+                                "id": {
+                                    "description": "The id of the knowledge base to use for this language.",
+                                    "type": "string"
+                                },
+                                "name": {
+                                    "description": "The name of the knowledge base to use for this language.",
+                                    "type": "string"
+                                }
+                            }
+                        },
+                        "none": {
+                            "description": "A property indicating no YAML configuration specified to set on the object.",
+                            "type": "boolean",
+                            "enum": [
+                                true
+                            ]
+                        }
+                    }
+                },
+                "en-us": {
+                    "description": "The 'en-us' language tag to set as a flow's supported language.",
+                    "additionalProperties": false,
+                    "maxProperties": 2,
+                    "type": "object",
+                    "properties": {
+                        "defaultLanguageSkill": {
+                            "description": "The default language skill to use for the language.",
+                            "additionalProperties": false,
+                            "$ref": "../DefArchyValues.schema.json#/definitions/ArchyPickerValueLanguageSkillLitNov"
+                        },
+                        "knowledgeBase": {
+                            "description": "The knowledge base configuration for the language.",
+                            "type": "object",
+                            "properties": {
+                                "id": {
+                                    "description": "The id of the knowledge base to use for this language.",
+                                    "type": "string"
+                                },
+                                "name": {
+                                    "description": "The name of the knowledge base to use for this language.",
+                                    "type": "string",
+                                    "enum": [
+                                        "Sector Salud EN-US",
+                                        "Base Sector Financiero"
+                                    ]
+                                }
+                            }
+                        },
+                        "none": {
+                            "description": "A property indicating no YAML configuration specified to set on the object.",
+                            "type": "boolean",
+                            "enum": [
+                                true
+                            ]
+                        }
+                    }
+                },
+                "en-za": {
+                    "description": "The 'en-za' language tag to set as a flow's supported language.",
+                    "additionalProperties": false,
+                    "maxProperties": 2,
+                    "type": "object",
+                    "properties": {
+                        "defaultLanguageSkill": {
+                            "description": "The default language skill to use for the language.",
+                            "additionalProperties": false,
+                            "$ref": "../DefArchyValues.schema.json#/definitions/ArchyPickerValueLanguageSkillLitNov"
+                        },
+                        "knowledgeBase": {
+                            "description": "The knowledge base configuration for the language.",
+                            "type": "object",
+                            "properties": {
+                                "id": {
+                                    "description": "The id of the knowledge base to use for this language.",
+                                    "type": "string"
+                                },
+                                "name": {
+                                    "description": "The name of the knowledge base to use for this language.",
+                                    "type": "string"
+                                }
+                            }
+                        },
+                        "none": {
+                            "description": "A property indicating no YAML configuration specified to set on the object.",
+                            "type": "boolean",
+                            "enum": [
+                                true
+                            ]
+                        }
+                    }
+                },
+                "es-es": {
+                    "description": "The 'es-es' language tag to set as a flow's supported language.",
+                    "additionalProperties": false,
+                    "maxProperties": 2,
+                    "type": "object",
+                    "properties": {
+                        "defaultLanguageSkill": {
+                            "description": "The default language skill to use for the language.",
+                            "additionalProperties": false,
+                            "$ref": "../DefArchyValues.schema.json#/definitions/ArchyPickerValueLanguageSkillLitNov"
+                        },
+                        "knowledgeBase": {
+                            "description": "The knowledge base configuration for the language.",
+                            "type": "object",
+                            "properties": {
+                                "id": {
+                                    "description": "The id of the knowledge base to use for this language.",
+                                    "type": "string"
+                                },
+                                "name": {
+                                    "description": "The name of the knowledge base to use for this language.",
+                                    "type": "string"
+                                }
+                            }
+                        },
+                        "none": {
+                            "description": "A property indicating no YAML configuration specified to set on the object.",
+                            "type": "boolean",
+                            "enum": [
+                                true
+                            ]
+                        }
+                    }
+                },
+                "es-mx": {
+                    "description": "The 'es-mx' language tag to set as a flow's supported language.",
+                    "additionalProperties": false,
+                    "maxProperties": 2,
+                    "type": "object",
+                    "properties": {
+                        "defaultLanguageSkill": {
+                            "description": "The default language skill to use for the language.",
+                            "additionalProperties": false,
+                            "$ref": "../DefArchyValues.schema.json#/definitions/ArchyPickerValueLanguageSkillLitNov"
+                        },
+                        "knowledgeBase": {
+                            "description": "The knowledge base configuration for the language.",
+                            "type": "object",
+                            "properties": {
+                                "id": {
+                                    "description": "The id of the knowledge base to use for this language.",
+                                    "type": "string"
+                                },
+                                "name": {
+                                    "description": "The name of the knowledge base to use for this language.",
+                                    "type": "string"
+                                }
+                            }
+                        },
+                        "none": {
+                            "description": "A property indicating no YAML configuration specified to set on the object.",
+                            "type": "boolean",
+                            "enum": [
+                                true
+                            ]
+                        }
+                    }
+                },
+                "es-us": {
+                    "description": "The 'es-us' language tag to set as a flow's supported language.",
+                    "additionalProperties": false,
+                    "maxProperties": 2,
+                    "type": "object",
+                    "properties": {
+                        "defaultLanguageSkill": {
+                            "description": "The default language skill to use for the language.",
+                            "additionalProperties": false,
+                            "$ref": "../DefArchyValues.schema.json#/definitions/ArchyPickerValueLanguageSkillLitNov"
+                        },
+                        "knowledgeBase": {
+                            "description": "The knowledge base configuration for the language.",
+                            "type": "object",
+                            "properties": {
+                                "id": {
+                                    "description": "The id of the knowledge base to use for this language.",
+                                    "type": "string"
+                                },
+                                "name": {
+                                    "description": "The name of the knowledge base to use for this language.",
+                                    "type": "string",
+                                    "enum": [
+                                        "Hackaton2024",
+                                        "Base Sector Salud",
+                                        "NeoBank"
+                                    ]
+                                }
+                            }
+                        },
+                        "none": {
+                            "description": "A property indicating no YAML configuration specified to set on the object.",
+                            "type": "boolean",
+                            "enum": [
+                                true
+                            ]
+                        }
+                    }
+                },
+                "eu-es": {
+                    "description": "The 'eu-es' language tag to set as a flow's supported language.",
+                    "additionalProperties": false,
+                    "maxProperties": 2,
+                    "type": "object",
+                    "properties": {
+                        "defaultLanguageSkill": {
+                            "description": "The default language skill to use for the language.",
+                            "additionalProperties": false,
+                            "$ref": "../DefArchyValues.schema.json#/definitions/ArchyPickerValueLanguageSkillLitNov"
+                        },
+                        "knowledgeBase": {
+                            "description": "The knowledge base configuration for the language.",
+                            "type": "object",
+                            "properties": {
+                                "id": {
+                                    "description": "The id of the knowledge base to use for this language.",
+                                    "type": "string"
+                                },
+                                "name": {
+                                    "description": "The name of the knowledge base to use for this language.",
+                                    "type": "string"
+                                }
+                            }
+                        },
+                        "none": {
+                            "description": "A property indicating no YAML configuration specified to set on the object.",
+                            "type": "boolean",
+                            "enum": [
+                                true
+                            ]
+                        }
+                    }
+                },
+                "fi-fi": {
+                    "description": "The 'fi-fi' language tag to set as a flow's supported language.",
+                    "additionalProperties": false,
+                    "maxProperties": 2,
+                    "type": "object",
+                    "properties": {
+                        "defaultLanguageSkill": {
+                            "description": "The default language skill to use for the language.",
+                            "additionalProperties": false,
+                            "$ref": "../DefArchyValues.schema.json#/definitions/ArchyPickerValueLanguageSkillLitNov"
+                        },
+                        "knowledgeBase": {
+                            "description": "The knowledge base configuration for the language.",
+                            "type": "object",
+                            "properties": {
+                                "id": {
+                                    "description": "The id of the knowledge base to use for this language.",
+                                    "type": "string"
+                                },
+                                "name": {
+                                    "description": "The name of the knowledge base to use for this language.",
+                                    "type": "string"
+                                }
+                            }
+                        },
+                        "none": {
+                            "description": "A property indicating no YAML configuration specified to set on the object.",
+                            "type": "boolean",
+                            "enum": [
+                                true
+                            ]
+                        }
+                    }
+                },
+                "fr-ca": {
+                    "description": "The 'fr-ca' language tag to set as a flow's supported language.",
+                    "additionalProperties": false,
+                    "maxProperties": 2,
+                    "type": "object",
+                    "properties": {
+                        "defaultLanguageSkill": {
+                            "description": "The default language skill to use for the language.",
+                            "additionalProperties": false,
+                            "$ref": "../DefArchyValues.schema.json#/definitions/ArchyPickerValueLanguageSkillLitNov"
+                        },
+                        "knowledgeBase": {
+                            "description": "The knowledge base configuration for the language.",
+                            "type": "object",
+                            "properties": {
+                                "id": {
+                                    "description": "The id of the knowledge base to use for this language.",
+                                    "type": "string"
+                                },
+                                "name": {
+                                    "description": "The name of the knowledge base to use for this language.",
+                                    "type": "string"
+                                }
+                            }
+                        },
+                        "none": {
+                            "description": "A property indicating no YAML configuration specified to set on the object.",
+                            "type": "boolean",
+                            "enum": [
+                                true
+                            ]
+                        }
+                    }
+                },
+                "fr-fr": {
+                    "description": "The 'fr-fr' language tag to set as a flow's supported language.",
+                    "additionalProperties": false,
+                    "maxProperties": 2,
+                    "type": "object",
+                    "properties": {
+                        "defaultLanguageSkill": {
+                            "description": "The default language skill to use for the language.",
+                            "additionalProperties": false,
+                            "$ref": "../DefArchyValues.schema.json#/definitions/ArchyPickerValueLanguageSkillLitNov"
+                        },
+                        "knowledgeBase": {
+                            "description": "The knowledge base configuration for the language.",
+                            "type": "object",
+                            "properties": {
+                                "id": {
+                                    "description": "The id of the knowledge base to use for this language.",
+                                    "type": "string"
+                                },
+                                "name": {
+                                    "description": "The name of the knowledge base to use for this language.",
+                                    "type": "string"
+                                }
+                            }
+                        },
+                        "none": {
+                            "description": "A property indicating no YAML configuration specified to set on the object.",
+                            "type": "boolean",
+                            "enum": [
+                                true
+                            ]
+                        }
+                    }
+                },
+                "it-it": {
+                    "description": "The 'it-it' language tag to set as a flow's supported language.",
+                    "additionalProperties": false,
+                    "maxProperties": 2,
+                    "type": "object",
+                    "properties": {
+                        "defaultLanguageSkill": {
+                            "description": "The default language skill to use for the language.",
+                            "additionalProperties": false,
+                            "$ref": "../DefArchyValues.schema.json#/definitions/ArchyPickerValueLanguageSkillLitNov"
+                        },
+                        "knowledgeBase": {
+                            "description": "The knowledge base configuration for the language.",
+                            "type": "object",
+                            "properties": {
+                                "id": {
+                                    "description": "The id of the knowledge base to use for this language.",
+                                    "type": "string"
+                                },
+                                "name": {
+                                    "description": "The name of the knowledge base to use for this language.",
+                                    "type": "string"
+                                }
+                            }
+                        },
+                        "none": {
+                            "description": "A property indicating no YAML configuration specified to set on the object.",
+                            "type": "boolean",
+                            "enum": [
+                                true
+                            ]
+                        }
+                    }
+                },
+                "ja-jp": {
+                    "description": "The 'ja-jp' language tag to set as a flow's supported language.",
+                    "additionalProperties": false,
+                    "maxProperties": 2,
+                    "type": "object",
+                    "properties": {
+                        "defaultLanguageSkill": {
+                            "description": "The default language skill to use for the language.",
+                            "additionalProperties": false,
+                            "$ref": "../DefArchyValues.schema.json#/definitions/ArchyPickerValueLanguageSkillLitNov"
+                        },
+                        "knowledgeBase": {
+                            "description": "The knowledge base configuration for the language.",
+                            "type": "object",
+                            "properties": {
+                                "id": {
+                                    "description": "The id of the knowledge base to use for this language.",
+                                    "type": "string"
+                                },
+                                "name": {
+                                    "description": "The name of the knowledge base to use for this language.",
+                                    "type": "string"
+                                }
+                            }
+                        },
+                        "none": {
+                            "description": "A property indicating no YAML configuration specified to set on the object.",
+                            "type": "boolean",
+                            "enum": [
+                                true
+                            ]
+                        }
+                    }
+                },
+                "ko-kr": {
+                    "description": "The 'ko-kr' language tag to set as a flow's supported language.",
+                    "additionalProperties": false,
+                    "maxProperties": 2,
+                    "type": "object",
+                    "properties": {
+                        "defaultLanguageSkill": {
+                            "description": "The default language skill to use for the language.",
+                            "additionalProperties": false,
+                            "$ref": "../DefArchyValues.schema.json#/definitions/ArchyPickerValueLanguageSkillLitNov"
+                        },
+                        "knowledgeBase": {
+                            "description": "The knowledge base configuration for the language.",
+                            "type": "object",
+                            "properties": {
+                                "id": {
+                                    "description": "The id of the knowledge base to use for this language.",
+                                    "type": "string"
+                                },
+                                "name": {
+                                    "description": "The name of the knowledge base to use for this language.",
+                                    "type": "string"
+                                }
+                            }
+                        },
+                        "none": {
+                            "description": "A property indicating no YAML configuration specified to set on the object.",
+                            "type": "boolean",
+                            "enum": [
+                                true
+                            ]
+                        }
+                    }
+                },
+                "nb-no": {
+                    "description": "The 'nb-no' language tag to set as a flow's supported language.",
+                    "additionalProperties": false,
+                    "maxProperties": 2,
+                    "type": "object",
+                    "properties": {
+                        "defaultLanguageSkill": {
+                            "description": "The default language skill to use for the language.",
+                            "additionalProperties": false,
+                            "$ref": "../DefArchyValues.schema.json#/definitions/ArchyPickerValueLanguageSkillLitNov"
+                        },
+                        "knowledgeBase": {
+                            "description": "The knowledge base configuration for the language.",
+                            "type": "object",
+                            "properties": {
+                                "id": {
+                                    "description": "The id of the knowledge base to use for this language.",
+                                    "type": "string"
+                                },
+                                "name": {
+                                    "description": "The name of the knowledge base to use for this language.",
+                                    "type": "string"
+                                }
+                            }
+                        },
+                        "none": {
+                            "description": "A property indicating no YAML configuration specified to set on the object.",
+                            "type": "boolean",
+                            "enum": [
+                                true
+                            ]
+                        }
+                    }
+                },
+                "nl-nl": {
+                    "description": "The 'nl-nl' language tag to set as a flow's supported language.",
+                    "additionalProperties": false,
+                    "maxProperties": 2,
+                    "type": "object",
+                    "properties": {
+                        "defaultLanguageSkill": {
+                            "description": "The default language skill to use for the language.",
+                            "additionalProperties": false,
+                            "$ref": "../DefArchyValues.schema.json#/definitions/ArchyPickerValueLanguageSkillLitNov"
+                        },
+                        "knowledgeBase": {
+                            "description": "The knowledge base configuration for the language.",
+                            "type": "object",
+                            "properties": {
+                                "id": {
+                                    "description": "The id of the knowledge base to use for this language.",
+                                    "type": "string"
+                                },
+                                "name": {
+                                    "description": "The name of the knowledge base to use for this language.",
+                                    "type": "string"
+                                }
+                            }
+                        },
+                        "none": {
+                            "description": "A property indicating no YAML configuration specified to set on the object.",
+                            "type": "boolean",
+                            "enum": [
+                                true
+                            ]
+                        }
+                    }
+                },
+                "pl-pl": {
+                    "description": "The 'pl-pl' language tag to set as a flow's supported language.",
+                    "additionalProperties": false,
+                    "maxProperties": 2,
+                    "type": "object",
+                    "properties": {
+                        "defaultLanguageSkill": {
+                            "description": "The default language skill to use for the language.",
+                            "additionalProperties": false,
+                            "$ref": "../DefArchyValues.schema.json#/definitions/ArchyPickerValueLanguageSkillLitNov"
+                        },
+                        "knowledgeBase": {
+                            "description": "The knowledge base configuration for the language.",
+                            "type": "object",
+                            "properties": {
+                                "id": {
+                                    "description": "The id of the knowledge base to use for this language.",
+                                    "type": "string"
+                                },
+                                "name": {
+                                    "description": "The name of the knowledge base to use for this language.",
+                                    "type": "string"
+                                }
+                            }
+                        },
+                        "none": {
+                            "description": "A property indicating no YAML configuration specified to set on the object.",
+                            "type": "boolean",
+                            "enum": [
+                                true
+                            ]
+                        }
+                    }
+                },
+                "pt-br": {
+                    "description": "The 'pt-br' language tag to set as a flow's supported language.",
+                    "additionalProperties": false,
+                    "maxProperties": 2,
+                    "type": "object",
+                    "properties": {
+                        "defaultLanguageSkill": {
+                            "description": "The default language skill to use for the language.",
+                            "additionalProperties": false,
+                            "$ref": "../DefArchyValues.schema.json#/definitions/ArchyPickerValueLanguageSkillLitNov"
+                        },
+                        "knowledgeBase": {
+                            "description": "The knowledge base configuration for the language.",
+                            "type": "object",
+                            "properties": {
+                                "id": {
+                                    "description": "The id of the knowledge base to use for this language.",
+                                    "type": "string"
+                                },
+                                "name": {
+                                    "description": "The name of the knowledge base to use for this language.",
+                                    "type": "string"
+                                }
+                            }
+                        },
+                        "none": {
+                            "description": "A property indicating no YAML configuration specified to set on the object.",
+                            "type": "boolean",
+                            "enum": [
+                                true
+                            ]
+                        }
+                    }
+                },
+                "pt-pt": {
+                    "description": "The 'pt-pt' language tag to set as a flow's supported language.",
+                    "additionalProperties": false,
+                    "maxProperties": 2,
+                    "type": "object",
+                    "properties": {
+                        "defaultLanguageSkill": {
+                            "description": "The default language skill to use for the language.",
+                            "additionalProperties": false,
+                            "$ref": "../DefArchyValues.schema.json#/definitions/ArchyPickerValueLanguageSkillLitNov"
+                        },
+                        "knowledgeBase": {
+                            "description": "The knowledge base configuration for the language.",
+                            "type": "object",
+                            "properties": {
+                                "id": {
+                                    "description": "The id of the knowledge base to use for this language.",
+                                    "type": "string"
+                                },
+                                "name": {
+                                    "description": "The name of the knowledge base to use for this language.",
+                                    "type": "string"
+                                }
+                            }
+                        },
+                        "none": {
+                            "description": "A property indicating no YAML configuration specified to set on the object.",
+                            "type": "boolean",
+                            "enum": [
+                                true
+                            ]
+                        }
+                    }
+                },
+                "sv-se": {
+                    "description": "The 'sv-se' language tag to set as a flow's supported language.",
+                    "additionalProperties": false,
+                    "maxProperties": 2,
+                    "type": "object",
+                    "properties": {
+                        "defaultLanguageSkill": {
+                            "description": "The default language skill to use for the language.",
+                            "additionalProperties": false,
+                            "$ref": "../DefArchyValues.schema.json#/definitions/ArchyPickerValueLanguageSkillLitNov"
+                        },
+                        "knowledgeBase": {
+                            "description": "The knowledge base configuration for the language.",
+                            "type": "object",
+                            "properties": {
+                                "id": {
+                                    "description": "The id of the knowledge base to use for this language.",
+                                    "type": "string"
+                                },
+                                "name": {
+                                    "description": "The name of the knowledge base to use for this language.",
+                                    "type": "string"
+                                }
+                            }
+                        },
+                        "none": {
+                            "description": "A property indicating no YAML configuration specified to set on the object.",
+                            "type": "boolean",
+                            "enum": [
+                                true
+                            ]
+                        }
+                    }
+                },
+                "tr-tr": {
+                    "description": "The 'tr-tr' language tag to set as a flow's supported language.",
+                    "additionalProperties": false,
+                    "maxProperties": 2,
+                    "type": "object",
+                    "properties": {
+                        "defaultLanguageSkill": {
+                            "description": "The default language skill to use for the language.",
+                            "additionalProperties": false,
+                            "$ref": "../DefArchyValues.schema.json#/definitions/ArchyPickerValueLanguageSkillLitNov"
+                        },
+                        "knowledgeBase": {
+                            "description": "The knowledge base configuration for the language.",
+                            "type": "object",
+                            "properties": {
+                                "id": {
+                                    "description": "The id of the knowledge base to use for this language.",
+                                    "type": "string"
+                                },
+                                "name": {
+                                    "description": "The name of the knowledge base to use for this language.",
+                                    "type": "string"
+                                }
+                            }
+                        },
+                        "none": {
+                            "description": "A property indicating no YAML configuration specified to set on the object.",
+                            "type": "boolean",
+                            "enum": [
+                                true
+                            ]
+                        }
+                    }
+                },
+                "zh-cn": {
+                    "description": "The 'zh-cn' language tag to set as a flow's supported language.",
+                    "additionalProperties": false,
+                    "maxProperties": 2,
+                    "type": "object",
+                    "properties": {
+                        "defaultLanguageSkill": {
+                            "description": "The default language skill to use for the language.",
+                            "additionalProperties": false,
+                            "$ref": "../DefArchyValues.schema.json#/definitions/ArchyPickerValueLanguageSkillLitNov"
+                        },
+                        "knowledgeBase": {
+                            "description": "The knowledge base configuration for the language.",
+                            "type": "object",
+                            "properties": {
+                                "id": {
+                                    "description": "The id of the knowledge base to use for this language.",
+                                    "type": "string"
+                                },
+                                "name": {
+                                    "description": "The name of the knowledge base to use for this language.",
+                                    "type": "string"
+                                }
+                            }
+                        },
+                        "none": {
+                            "description": "A property indicating no YAML configuration specified to set on the object.",
+                            "type": "boolean",
+                            "enum": [
+                                true
+                            ]
+                        }
+                    }
+                },
+                "zh-hk": {
+                    "description": "The 'zh-hk' language tag to set as a flow's supported language.",
+                    "additionalProperties": false,
+                    "maxProperties": 2,
+                    "type": "object",
+                    "properties": {
+                        "defaultLanguageSkill": {
+                            "description": "The default language skill to use for the language.",
+                            "additionalProperties": false,
+                            "$ref": "../DefArchyValues.schema.json#/definitions/ArchyPickerValueLanguageSkillLitNov"
+                        },
+                        "knowledgeBase": {
+                            "description": "The knowledge base configuration for the language.",
+                            "type": "object",
+                            "properties": {
+                                "id": {
+                                    "description": "The id of the knowledge base to use for this language.",
+                                    "type": "string"
+                                },
+                                "name": {
+                                    "description": "The name of the knowledge base to use for this language.",
+                                    "type": "string"
+                                }
+                            }
+                        },
+                        "none": {
+                            "description": "A property indicating no YAML configuration specified to set on the object.",
+                            "type": "boolean",
+                            "enum": [
+                                true
+                            ]
+                        }
+                    }
+                },
+                "zh-tw": {
+                    "description": "The 'zh-tw' language tag to set as a flow's supported language.",
+                    "additionalProperties": false,
+                    "maxProperties": 2,
+                    "type": "object",
+                    "properties": {
+                        "defaultLanguageSkill": {
+                            "description": "The default language skill to use for the language.",
+                            "additionalProperties": false,
+                            "$ref": "../DefArchyValues.schema.json#/definitions/ArchyPickerValueLanguageSkillLitNov"
+                        },
+                        "knowledgeBase": {
+                            "description": "The knowledge base configuration for the language.",
+                            "type": "object",
+                            "properties": {
+                                "id": {
+                                    "description": "The id of the knowledge base to use for this language.",
+                                    "type": "string"
+                                },
+                                "name": {
+                                    "description": "The name of the knowledge base to use for this language.",
+                                    "type": "string"
+                                }
+                            }
+                        },
+                        "none": {
+                            "description": "A property indicating no YAML configuration specified to set on the object.",
+                            "type": "boolean",
+                            "enum": [
+                                true
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
